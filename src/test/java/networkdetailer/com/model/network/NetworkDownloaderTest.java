@@ -1,7 +1,6 @@
 package networkdetailer.com.model.network;
 
 import networkdetailer.com.model.data.NetworkData;
-import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 import org.mockito.Mockito;
 
@@ -15,6 +14,7 @@ class NetworkDownloaderTest {
 
     @Test
     public void dataConnectionShouldGenerateRightNetworkData() throws SocketException, UnknownHostException {
+        //Given
         String hostname = "DESKTOP-SHNJU06";
         IPGetter ipGetter = Mockito.mock(IPGetter.class);
         MacGetter macGetter = Mockito.mock(MacGetter.class);
@@ -24,11 +24,12 @@ class NetworkDownloaderTest {
 
         Mockito.when(ipGetter.get()).thenReturn(customInetAddress);
         Mockito.when(macGetter.get(customInetAddress)).thenReturn("00:D8:61:32:CF:86");
-
-
         NetworkDownloader networkDownloader = new NetworkDownloader(ipGetter, macGetter);
-        NetworkData networkData = networkDownloader.get();
 
+        //When
+        NetworkData networkData = networkDownloader.getData();
+
+        //Then
         assertEquals(networkData.hostname(), hostname);
         assertEquals(networkData.ip(), customInetAddress.getHostAddress());
         assertEquals(networkData.mac(), macGetter.get(customInetAddress));

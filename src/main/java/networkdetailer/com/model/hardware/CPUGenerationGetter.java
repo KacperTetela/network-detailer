@@ -5,7 +5,7 @@ import networkdetailer.com.model.data.CPUManufacturer;
 
 public class CPUGenerationGetter {
 
-    public static CPUGeneration identify(String cpuModel) {
+    public CPUGeneration identify(String cpuModel) {
         CPUManufacturer manufacturer = CPUManufacturer.UNKNOWN;
         int generation = -1;
 

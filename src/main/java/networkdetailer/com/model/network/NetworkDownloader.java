@@ -16,8 +16,7 @@ public class NetworkDownloader {
         this.macGetter = macGetter;
     }
 
-    public NetworkData get() {
-
+    public NetworkData getData() {
         InetAddress ip;
         String ipHostAddress;
         String macAddress;
@@ -49,6 +48,5 @@ public class NetworkDownloader {
         }
         throw new RuntimeException("IP data not initialized");
     }
-
 
 }

@@ -6,20 +6,21 @@ import oshi.hardware.ComputerSystem;
 import oshi.hardware.HardwareAbstractionLayer;
 
 public class HardwareGetter {
-    public synchronized static SystemInfo getSystemInfo() {
+
+    public synchronized SystemInfo getSystemInfo() {
         return new SystemInfo();
     }
 
-    public synchronized static ComputerSystem getComputerSystem() {
+    public synchronized ComputerSystem getComputerSystem() {
         ComputerSystem computerSystem = getSystemInfo().getHardware().getComputerSystem();
         return computerSystem;
     }
 
-    public synchronized static HardwareAbstractionLayer getHal() {
+    public synchronized HardwareAbstractionLayer getHal() {
         return getSystemInfo().getHardware();
     }
 
-    public static Baseboard getBaseboard() {
+    public Baseboard getBaseboard() {
         return getComputerSystem().getBaseboard();
     }
 }

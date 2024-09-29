@@ -1,5 +1,7 @@
 package networkdetailer.com.view;
 
+import networkdetailer.com.controller.Controller;
+import networkdetailer.com.model.data.DataCollector;
 import networkdetailer.com.view.main.MainPanel;
 
 import javax.swing.*;
@@ -9,7 +11,11 @@ public class Frame extends JFrame {
     private static Frame instance;
 
     private final ImageIcon icon = new ImageIcon(getClass().getResource("/search.png"));
-    JPanel mainPanel = new MainPanel();
+
+    DataCollector dataCollector = new DataCollector();
+    Controller controller = new Controller(dataCollector);
+
+    JPanel mainPanel = new MainPanel(controller);
     JPanel informationPanel;
 
     public static synchronized Frame getInstance() {
@@ -31,7 +37,7 @@ public class Frame extends JFrame {
     }
 
     public void initialMainFrame() {
-        mainPanel = new MainPanel();
+        mainPanel = new MainPanel(controller);
         add(mainPanel);
     }
 

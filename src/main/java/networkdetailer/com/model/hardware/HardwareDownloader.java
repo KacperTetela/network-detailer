@@ -1,17 +1,13 @@
 package networkdetailer.com.model.hardware;
 
 import networkdetailer.com.model.data.*;
-import oshi.SystemInfo;
 import oshi.hardware.*;
 
 import java.util.Arrays;
 
 public class HardwareDownloader {
-    private SystemInfo systemInfo;
-    private ComputerSystem computerSystem;
-    private HardwareAbstractionLayer hal;
-    private Baseboard baseboard;
-
+    HardwareGetter hardwareGetter;
+    CPUGenerationGetter cpuGenerationGetter;
     private String cpuModel;
     private String[] cpuModelToRefactor;
     private int ramGB;
@@ -20,14 +16,13 @@ public class HardwareDownloader {
     private String boardModel;
     private String bios;
 
-    public void initialise() {
-        systemInfo = HardwareGetter.getSystemInfo();
-        computerSystem = HardwareGetter.getComputerSystem();
-        hal = HardwareGetter.getHal();
-        baseboard = HardwareGetter.getBaseboard();
+    public HardwareDownloader(HardwareGetter hardwareGetter, CPUGenerationGetter cpuGenerationGetter) {
+        this.hardwareGetter = hardwareGetter;
+        this.cpuGenerationGetter = cpuGenerationGetter;
     }
 
     public CPUData getCpuData() {
+        HardwareAbstractionLayer hal = hardwareGetter.getHal();
         CentralProcessor processor = hal.getProcessor();
         cpuModel = processor.getProcessorIdentifier().getName();
 
@@ -35,22 +30,28 @@ public class HardwareDownloader {
         System.out.println(Arrays.toString(cpuModelToRefactor));
 
         if (cpuModelToRefactor[0].toUpperCase().contains(CPUManufacturer.INTEL.toString())) {
-            return new CPUData(CPUGenerationGetter.identify(cpuModel), cpuModelToRefactor[2], Double.valueOf(cpuModelToRefactor[5]));
+            return new CPUData(cpuGenerationGetter.identify(cpuModel), cpuModelToRefactor[2], Double.valueOf(cpuModelToRefactor[5]));
         } else if (cpuModelToRefactor[0].toUpperCase().contains(CPUManufacturer.AMD.toString())) {
-            return new CPUData(CPUGenerationGetter.identify(cpuModel), cpuModelToRefactor[2], Double.valueOf(cpuModelToRefactor[5]));
+            return new CPUData(cpuGenerationGetter.identify(cpuModel), cpuModelToRefactor[2], Double.valueOf(cpuModelToRefactor[5]));
         } else if (cpuModelToRefactor[0].toUpperCase().contains(CPUManufacturer.APPLE.toString())) {
-            return new CPUData(CPUGenerationGetter.identify(cpuModel), cpuModelToRefactor[1], 0.0);
+            return new CPUData(cpuGenerationGetter.identify(cpuModel), cpuModelToRefactor[1], 0.0);
         }
-        return new CPUData(CPUGenerationGetter.identify(cpuModel), cpuModelToRefactor[2], 0.0);
+        return new CPUData(cpuGenerationGetter.identify(cpuModel), cpuModelToRefactor[2], 0.0);
     }
 
     public MemoryData getMemoryData() {
+        HardwareAbstractionLayer hal = hardwareGetter.getHal();
         GlobalMemory memory = hal.getMemory();
         ramGB = conversionBtoGB(memory.getTotal());
+
 
         // Getting disk information
         DiskType diskTypeEnum = DiskType.UNKNOWN;
         long totalDiskSpace = 0;
+
+        for (int i = 0; i < 10; i++) {
+            System.out.println(hal.getDiskStores());
+        }
 
         for (HWDiskStore disk : hal.getDiskStores()) {
             totalDiskSpace += disk.getSize();
@@ -68,6 +69,8 @@ public class HardwareDownloader {
     }
 
     public MOBOData getMoboData() {
+       ComputerSystem computerSystem = hardwareGetter.getComputerSystem();
+       Baseboard baseboard = hardwareGetter.getBaseboard();
         boardModel = baseboard.getModel();
         baseboardManufacturer = baseboard.getManufacturer();
         bios = computerSystem.getFirmware().getName();

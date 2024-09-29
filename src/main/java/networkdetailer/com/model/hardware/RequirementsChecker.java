@@ -5,12 +5,12 @@ import networkdetailer.com.model.data.CPUManufacturer;
 import networkdetailer.com.model.data.MemoryData;
 
 public class RequirementsChecker {
-    private static final int MIN_INTEL_CPU_GENERATION = 8; // Minimum requirements
-    private static final int MIN_AMD_CPU_GENERATION = 2;
-    private static final long MIN_RAM_GB = 4;
-    private static final long MIN_DISK_SPACE_GB = 64;
+    private final int MIN_INTEL_CPU_GENERATION = 8; // Minimum requirements
+    private final int MIN_AMD_CPU_GENERATION = 2;
+    private final long MIN_RAM_GB = 4;
+    private final long MIN_DISK_SPACE_GB = 64;
 
-    public static boolean check(CPUData cpuData, MemoryData memoryData) {
+    public boolean check(CPUData cpuData, MemoryData memoryData) {
         boolean cpuOk;
         switch (cpuData.generation().cpuManufacturer()){
             case CPUManufacturer.INTEL -> cpuOk = cpuData.generation().generation() >= MIN_INTEL_CPU_GENERATION;

@@ -7,11 +7,13 @@ import javax.swing.*;
 import java.awt.*;
 
 public class ButtonsPanel extends JPanel {
+    private Controller controller;
     JButton saveToTxt = new JButton("Save as TXT");
     JButton saveToExcel = new JButton("Export to Excel");
     JButton refresh = new JButton("Refresh Data");
 
-    public ButtonsPanel() {
+    public ButtonsPanel(Controller controller) {
+        this.controller = controller;
         setSize(250, 80);
         setLayout(new FlowLayout());
 
@@ -25,7 +27,7 @@ public class ButtonsPanel extends JPanel {
              * int = 1 success
              * int = 2 hostname already exist
              */
-            int outputValue = Controller.exportToExcel();
+            int outputValue = controller.exportToExcel();
             switch (outputValue) {
                 case 0 -> Frame.getInstance().informationPanelPlayer("Something went wrong.");
                 case 1 -> Frame.getInstance().informationPanelPlayer("Data has been exported to Excel.");
@@ -33,7 +35,7 @@ public class ButtonsPanel extends JPanel {
             }
         });
         saveToTxt.addActionListener(e -> {
-            boolean didWork = Controller.saveAsTxt();
+            boolean didWork = controller.saveAsTxt();
             if (didWork) {
                 Frame.getInstance().informationPanelPlayer("Data has been saved as txt file.");
             } else {
@@ -41,7 +43,6 @@ public class ButtonsPanel extends JPanel {
             }
         });
         refresh.addActionListener(e -> {
-            Controller.refresh();
             VariablesPanel.updateStaticData();
         });
 

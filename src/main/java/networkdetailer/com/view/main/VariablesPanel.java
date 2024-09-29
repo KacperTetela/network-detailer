@@ -1,6 +1,7 @@
 package networkdetailer.com.view.main;
 
 import networkdetailer.com.controller.Controller;
+import networkdetailer.com.model.data.ComputerData;
 
 import javax.swing.*;
 import java.awt.*;
@@ -9,6 +10,7 @@ import java.awt.event.ActionListener;
 
 public class VariablesPanel extends JPanel {
     private static VariablesPanel instance;
+    private Controller controller;
 
     JPanel variables = new JPanel();
     JPanel variablesValues = new JPanel();
@@ -38,7 +40,8 @@ public class VariablesPanel extends JPanel {
     private JLabel windowsRequirementsValue = new JLabel();
     private JLabel biosValue = new JLabel();
 
-    public VariablesPanel() {
+    public VariablesPanel(Controller controller) {
+        this.controller = controller;
         setLayout(new FlowLayout(FlowLayout.LEFT));
 
         variables.setLayout(new GridLayout(12, 1, 10, 10));
@@ -94,18 +97,20 @@ public class VariablesPanel extends JPanel {
         Timer timer = new Timer(300, new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
-                hostnameValue.setText(Controller.getHostname());
-                ipAddressValue.setText(Controller.getIP());
-                macValue.setText(Controller.getMAC());
-                cpuManufacturerValue.setText(Controller.getCpuManufacturer());
-                cpuNameValue.setText(Controller.getCpuName());
-                cpuGenValue.setText(Controller.getCpuGen());
-                cpuGhzValue.setText(Controller.getCpuGhz());
-                ramValue.setText(Controller.getRamValue());
-                diskSpaceValue.setText(Controller.getDiskSpace());
-                diskTypeValue.setText(Controller.getDiskType());
-                windowsRequirementsValue.setText(Controller.getWindowsRequirements());
-                biosValue.setText(Controller.getBios());
+                ComputerData computerData = controller.getData();
+
+                hostnameValue.setText(computerData.getHostname());
+                ipAddressValue.setText(computerData.getIP());
+                macValue.setText(computerData.getMAC());
+                cpuManufacturerValue.setText(computerData.getCpuManufacturer());
+                cpuNameValue.setText(computerData.getCpuName());
+                cpuGenValue.setText(computerData.getCpuGen());
+                cpuGhzValue.setText(computerData.getCpuGhz());
+                ramValue.setText(computerData.getRamValue());
+                diskSpaceValue.setText(computerData.getDiskSpace());
+                diskTypeValue.setText(computerData.getDiskType());
+                windowsRequirementsValue.setText(computerData.getWindowsRequirements());
+                biosValue.setText(computerData.getBios());
             }
         });
         timer.setRepeats(false);

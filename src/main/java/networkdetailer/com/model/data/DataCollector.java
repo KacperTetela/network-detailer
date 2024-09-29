@@ -1,5 +1,7 @@
 package networkdetailer.com.model.data;
 
+import networkdetailer.com.model.hardware.CPUGenerationGetter;
+import networkdetailer.com.model.hardware.HardwareGetter;
 import networkdetailer.com.model.hardware.RequirementsChecker;
 import networkdetailer.com.model.hardware.HardwareDownloader;
 import networkdetailer.com.model.network.IPGetter;
@@ -25,26 +27,21 @@ public class DataCollector {
 
     private NetworkDownloader networkDownloader;
     private HardwareDownloader hardwareDownloader;
+    private RequirementsChecker requirementsChecker;
 
-    private DataCollector() {
+    public DataCollector() {
         networkDownloader = new NetworkDownloader(new IPGetter(), new MacGetter());
-        hardwareDownloader = new HardwareDownloader();
-        refresh();
+        hardwareDownloader = new HardwareDownloader(new HardwareGetter(), new CPUGenerationGetter());
+        requirementsChecker = new RequirementsChecker();
     }
 
-    public static synchronized DataCollector getInstance() {
-        if (instance == null) {
-            instance = new DataCollector();
-        }
-        return instance;
-    }
-
-    public synchronized void refresh() { //todo funkcjonalne testy tego
-        networkData = networkDownloader.get();
-        hardwareDownloader.initialise();
+    public ComputerData getActualData() {
+        networkData = networkDownloader.getData();
         cpuData = hardwareDownloader.getCpuData();
         moboData = hardwareDownloader.getMoboData();
         memoryData = hardwareDownloader.getMemoryData();
+        String windowsRequirements = String.valueOf(isWindowsRequirements());
+        return new ComputerData(cpuData, memoryData, moboData, networkData, windowsRequirements);
     }
 
     public int saveToExcel() {
@@ -191,7 +188,7 @@ public class DataCollector {
     }
 
     public boolean isWindowsRequirements() {
-        return RequirementsChecker.check(cpuData, memoryData);
+        return requirementsChecker.check(cpuData, memoryData);
     }
 
     public CPUData getCpuData() {
