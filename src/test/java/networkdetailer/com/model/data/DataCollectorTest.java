@@ -1,56 +1,61 @@
 package networkdetailer.com.model.data;
 
-import networkdetailer.com.model.hardware.CPUGenerationGetter;
 import networkdetailer.com.model.hardware.HardwareDownloader;
-import networkdetailer.com.model.hardware.HardwareGetter;
 import networkdetailer.com.model.hardware.RequirementsChecker;
-import networkdetailer.com.model.network.IPGetter;
-import networkdetailer.com.model.network.MacGetter;
 import networkdetailer.com.model.network.NetworkDownloader;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import org.mockito.Mockito;
-import oshi.hardware.Baseboard;
-import oshi.hardware.ComputerSystem;
-import oshi.hardware.Firmware;
-import oshi.hardware.HardwareAbstractionLayer;
 
 import static org.junit.jupiter.api.Assertions.*;
+import static org.mockito.Mockito.mock;
+import static org.mockito.Mockito.when;
 
 class DataCollectorTest {
+    private DataCollector dataCollector;
+
     private NetworkDownloader networkDownloader;
     private HardwareDownloader hardwareDownloader;
     private RequirementsChecker requirementsChecker;
 
+    private CPUData mockCpuData;
+    private MOBOData mockMoboData;
+    private MemoryData mockMemoryData;
+    private NetworkData mockNetworkData;
+
     @BeforeEach
     public void setUp() {
-        // Mocking dependencies
-        IPGetter ipGetter = Mockito.mock(IPGetter.class);
-        MacGetter macGetter = Mockito.mock(MacGetter.class);
-        networkDownloader = new NetworkDownloader(ipGetter, macGetter);
+        networkDownloader = mock(NetworkDownloader.class);
+        hardwareDownloader = mock(HardwareDownloader.class);
+        requirementsChecker = mock(RequirementsChecker.class);
 
-        HardwareGetter hardwareGetter = Mockito.mock(HardwareGetter.class);
-        CPUGenerationGetter cpuGenerationGetter = Mockito.mock(CPUGenerationGetter.class);
-        hardwareDownloader = new HardwareDownloader(hardwareGetter, cpuGenerationGetter);
+        dataCollector = new DataCollector();
+        dataCollector.setNetworkDownloader(networkDownloader);
+        dataCollector.setHardwareDownloader(hardwareDownloader);
+        dataCollector.setRequirementsChecker(requirementsChecker);
 
-        requirementsChecker = Mockito.mock(RequirementsChecker.class);
-
-        // Setting up mocks
-
-
+        mockCpuData = mock(CPUData.class);
+        mockMemoryData = mock(MemoryData.class);
+        mockMoboData = mock(MOBOData.class);
+        mockNetworkData = mock(NetworkData.class);
     }
 
     @Test
-    public void isWindowsRequirementsPass() {
-        //Given
-        CPUData expectedCPU = new CPUData(new CPUGeneration(CPUManufacturer.INTEL, 9), "i7-9700K", 3.6);
-        MemoryData expectedMemory = new MemoryData(16, 966, DiskType.SSD);
+    void getActualData_shouldReturnComputerData() {
+        when(networkDownloader.getData()).thenReturn(mockNetworkData);
+        when(hardwareDownloader.getCpuData()).thenReturn(mockCpuData);
+        when(hardwareDownloader.getMemoryData()).thenReturn(mockMemoryData);
+        when(hardwareDownloader.getMoboData()).thenReturn(mockMoboData);
+        when(requirementsChecker.check(mockCpuData, mockMemoryData)).thenReturn(true);
 
-        //When
-        boolean requirementsAnswer = requirementsChecker.check(expectedCPU, expectedMemory);
+        ComputerData result = dataCollector.getActualData();
 
-        //Then
-        assertTrue(requirementsAnswer);
+        assertNotNull(result);
+        assertEquals(mockCpuData, result.cpuData());
+        assertEquals(mockMemoryData, result.memoryData());
+        assertEquals(mockMoboData, result.moboData());
+        assertEquals(mockNetworkData, result.networkData());
+        assertEquals("true", result.getWindowsRequirements());
     }
 
 }

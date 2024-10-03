@@ -18,8 +18,6 @@ import java.nio.file.Path;
 import java.nio.file.Paths;
 
 public class DataCollector {
-    private static DataCollector instance;
-
     private CPUData cpuData;
     private MOBOData moboData;
     private MemoryData memoryData;
@@ -205,5 +203,17 @@ public class DataCollector {
 
     public NetworkData getNetworkData() {
         return networkData;
+    }
+
+    public void setNetworkDownloader(NetworkDownloader networkDownloader) {
+        this.networkDownloader = networkDownloader;
+    }
+
+    public void setHardwareDownloader(HardwareDownloader hardwareDownloader) {
+        this.hardwareDownloader = hardwareDownloader;
+    }
+
+    public void setRequirementsChecker(RequirementsChecker requirementsChecker) {
+        this.requirementsChecker = requirementsChecker;
     }
 }
