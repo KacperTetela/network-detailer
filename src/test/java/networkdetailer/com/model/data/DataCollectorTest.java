@@ -5,11 +5,9 @@ import networkdetailer.com.model.hardware.RequirementsChecker;
 import networkdetailer.com.model.network.NetworkDownloader;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
-import org.mockito.Mockito;
 
 import static org.junit.jupiter.api.Assertions.*;
-import static org.mockito.Mockito.mock;
-import static org.mockito.Mockito.when;
+import static org.mockito.Mockito.*;
 
 class DataCollectorTest {
     private DataCollector dataCollector;
@@ -58,4 +56,11 @@ class DataCollectorTest {
         assertEquals("true", result.getWindowsRequirements());
     }
 
+    @Test
+    void isWindowsRequirements_shouldReturnFalseWhenInvalid() {
+        when(requirementsChecker.check(mockCpuData, mockMemoryData)).thenReturn(false);
+        assertFalse(dataCollector.isWindowsRequirements());
+    }
+
 }
+
