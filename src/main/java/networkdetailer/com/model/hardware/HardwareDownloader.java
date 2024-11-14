@@ -29,23 +29,18 @@ public class HardwareDownloader {
         cpuModel = processor.getProcessorIdentifier().getName();
 
         cpuModelToRefactor = cpuModel.split("[ GHz]", 256);
-        System.out.println(Arrays.toString(cpuModelToRefactor));
         log.trace(Arrays.toString(cpuModelToRefactor));
 
         if (cpuModelToRefactor[0].toUpperCase().contains(CPUManufacturer.INTEL.toString())) {
             return new CPUData(cpuGenerationGetter.identify(cpuModel), cpuModelToRefactor[2], Double.valueOf(cpuModelToRefactor[5]));
-        }
-
-        else if (cpuModelToRefactor[0].toUpperCase().contains(CPUManufacturer.AMD.toString())) {
+        } else if (cpuModelToRefactor[0].toUpperCase().contains(CPUManufacturer.AMD.toString())) {
             String[] cpuParts = Arrays.stream(cpuModel.split(" "))
                     .filter(part -> !part.isEmpty())
                     .toArray(String[]::new);
 
-            // Dla AMD Ryzen, rozpoznajemy generację i nazwę
             String cpuName = "Unknown Model";
             int generation = -1;
 
-            // Szukamy słowa "Ryzen" i generacji
             for (int i = 0; i < cpuParts.length; i++) {
                 if (cpuParts[i].equalsIgnoreCase("Ryzen")) {
                     if (i + 1 < cpuParts.length && Character.isDigit(cpuParts[i + 1].charAt(0))) {
@@ -58,9 +53,7 @@ public class HardwareDownloader {
             }
 
             return new CPUData(cpuGenerationGetter.identify(cpuModel), cpuName, parseFrequency(cpuParts, 5));
-        }
-
-        else if (cpuModelToRefactor[0].toUpperCase().contains(CPUManufacturer.APPLE.toString())) {
+        } else if (cpuModelToRefactor[0].toUpperCase().contains(CPUManufacturer.APPLE.toString())) {
             return new CPUData(cpuGenerationGetter.identify(cpuModel), cpuModelToRefactor[1], 0.0);
         }
         return new CPUData(cpuGenerationGetter.identify(cpuModel), "UNKNOWN", 0.0);

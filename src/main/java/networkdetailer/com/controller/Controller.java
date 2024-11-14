@@ -10,7 +10,7 @@ public class Controller {
         this.dataCollector = dataCollector;
     }
 
-    public ComputerData getData(){
+    public ComputerData getData() {
         return dataCollector.getActualData();
     }
 

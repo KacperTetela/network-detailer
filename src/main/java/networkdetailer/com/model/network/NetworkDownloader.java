@@ -1,12 +1,13 @@
 package networkdetailer.com.model.network;
 
+import lombok.extern.slf4j.Slf4j;
 import networkdetailer.com.model.data.NetworkData;
 
 import java.net.InetAddress;
 import java.net.SocketException;
 import java.net.UnknownHostException;
 
-
+@Slf4j
 public class NetworkDownloader {
     private IPGetter ipGetter;
     private MacGetter macGetter;
@@ -28,16 +29,16 @@ public class NetworkDownloader {
             macAddress = macGetter.get(ip);
             hostName = ip.getHostName();
 
-            System.out.println(hostName);
+            log.trace(hostName);
 
             // Remove the suffix (e.g. ".home") from the hostname
             if (hostName.contains(".")) {
                 hostName = hostName.split("\\.")[0];
             }
 
-            System.out.println("IP Address: " + ipHostAddress);
-            System.out.println("MAC Address: " + macAddress);
-            System.out.println("Hostname: " + hostName);
+            log.trace("IP Address: " + ipHostAddress);
+            log.trace("MAC Address: " + macAddress);
+            log.trace("Hostname: " + hostName);
 
             return new NetworkData(ipHostAddress, hostName, macAddress);
 

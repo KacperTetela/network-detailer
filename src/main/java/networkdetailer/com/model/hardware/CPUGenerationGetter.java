@@ -40,7 +40,6 @@ public class CPUGenerationGetter {
                     }
                 }
             } else if (manufacturer == CPUManufacturer.AMD) {
-                // Extract the model number after "Ryzen", e.g., "2700" from "Ryzen 7 2700"
                 int ryzenIndex = cpuModel.indexOf("Ryzen");
                 if (ryzenIndex != -1) {
                     String modelNumber = cpuModel.substring(ryzenIndex + 7).replaceAll("[^0-9]", "");

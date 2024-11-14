@@ -1,6 +1,7 @@
 package networkdetailer.com.model.data;
 
-public record ComputerData(CPUData cpuData, MemoryData memoryData, MOBOData moboData, NetworkData networkData, String windowsRequirements) {
+public record ComputerData(CPUData cpuData, MemoryData memoryData, MOBOData moboData, NetworkData networkData,
+                           String windowsRequirements) {
 
     public String getIP() {
         return networkData.ip();
@@ -24,7 +25,7 @@ public record ComputerData(CPUData cpuData, MemoryData memoryData, MOBOData mobo
 
     public String getCpuGhz() {
         if (Double.valueOf(cpuData.ghz()) == 0.0)
-            return "UNKNOWN";
+            return "";
         return String.valueOf(cpuData.ghz());
     }
 
@@ -37,6 +38,8 @@ public record ComputerData(CPUData cpuData, MemoryData memoryData, MOBOData mobo
     }
 
     public String getDiskType() {
+        if (String.valueOf(memoryData.diskType()).equalsIgnoreCase("unknown"))
+            return "";
         return String.valueOf(memoryData.diskType());
     }
 
