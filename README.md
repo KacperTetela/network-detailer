@@ -19,13 +19,14 @@ NetworkDetailer is a desktop application written in Java that provides network d
 
 #### Download the JAR file:
 
-1. Go to the [Releases](https://github.com/KacperTetela/NetworkDetailer/releases/tag/v1.0) page of this repository.
-2. Download the latest `NetworkDetailer.jar` file from the assets section.
+1. Go to the [Releases](https://github.com/KacperTetela/NetworkDetailer/releases/tag/v1.1.0) page of this repository.
+2. Download the latest `NetworkDetailer.zip` file from the assets section.
 
 #### Run the application:
 
-1. Locate the downloaded `NetworkDetailer.jar` file on your computer.
-2. Double-click the JAR file to run the application.
+1. Locate the downloaded NetworkDetailer.zip file on your computer and extract its contents.
+2. Open the extracted folder and locate the NetworkDetailer.exe file.
+3. Double-click the EXE file to run the application.
 
 ## License
 
