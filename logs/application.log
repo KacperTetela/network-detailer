@@ -1,0 +1,547 @@
+2024-10-08 14:46:30 [AWT-EventQueue-0] [39mDEBUG[0;39m o.u.p.windows.PerfCounterQuery - Localized PhysicalDisk to PhysicalDisk
+2024-10-08 14:46:30 [AWT-EventQueue-0] [39mTRACE[0;39m n.c.m.hardware.RequirementsChecker - The hardware meets the minimum system requirements for Windows 11
+2024-10-08 14:46:30 [AWT-EventQueue-0] [34mINFO[0;39m n.c.m.hardware.RequirementsChecker - Disk type: UNKNOWN
+2024-10-08 14:46:30 [AWT-EventQueue-0] [39mTRACE[0;39m n.c.m.hardware.RequirementsChecker - The hardware meets the minimum system requirements for Windows 11
+2024-10-08 14:46:30 [AWT-EventQueue-0] [34mINFO[0;39m n.c.m.hardware.RequirementsChecker - Disk type: UNKNOWN
+2024-10-08 15:00:25 [main] [39mTRACE[0;39m n.c.m.hardware.RequirementsChecker - The hardware meets the minimum system requirements for Windows 11
+2024-10-08 15:00:25 [main] [34mINFO[0;39m n.c.m.hardware.RequirementsChecker - Disk type: null
+2024-10-08 15:00:26 [main] [31mWARN[0;39m n.c.m.hardware.RequirementsChecker - Your hardware does not meet the minimum system requirements for Windows 11
+2024-10-08 15:00:26 [main] [31mWARN[0;39m n.c.m.hardware.RequirementsChecker - - CPU does not meet generation requirements (min. 8)
+2024-10-08 15:00:26 [main] [34mINFO[0;39m n.c.m.hardware.RequirementsChecker - Disk type: null
+2024-10-13 23:07:23 [AWT-EventQueue-0] [39mDEBUG[0;39m o.u.p.windows.PerfCounterQuery - Localized PhysicalDisk to PhysicalDisk
+2024-10-13 23:07:23 [AWT-EventQueue-0] [39mTRACE[0;39m n.c.m.hardware.RequirementsChecker - The hardware meets the minimum system requirements for Windows 11
+2024-10-13 23:07:23 [AWT-EventQueue-0] [34mINFO[0;39m n.c.m.hardware.RequirementsChecker - Disk type: UNKNOWN
+2024-10-13 23:07:23 [AWT-EventQueue-0] [39mTRACE[0;39m n.c.m.hardware.RequirementsChecker - The hardware meets the minimum system requirements for Windows 11
+2024-10-13 23:07:23 [AWT-EventQueue-0] [34mINFO[0;39m n.c.m.hardware.RequirementsChecker - Disk type: UNKNOWN
+2024-10-17 01:23:56 [main] [31mWARN[0;39m n.c.m.hardware.RequirementsChecker - Your hardware does not meet the minimum system requirements for Windows 11
+2024-10-17 01:23:56 [main] [31mWARN[0;39m n.c.m.hardware.RequirementsChecker - - The disk does not meet the requirements
+2024-10-17 01:23:56 [main] [34mINFO[0;39m n.c.m.hardware.RequirementsChecker - Disk type: null
+2024-10-17 01:23:56 [main] [31mWARN[0;39m n.c.m.hardware.RequirementsChecker - Your hardware does not meet the minimum system requirements for Windows 11
+2024-10-17 01:23:56 [main] [31mWARN[0;39m n.c.m.hardware.RequirementsChecker - - CPU does not meet generation requirements (min. 8)
+2024-10-17 01:23:56 [main] [34mINFO[0;39m n.c.m.hardware.RequirementsChecker - Disk type: null
+2024-10-17 01:23:56 [main] [39mTRACE[0;39m n.c.m.hardware.RequirementsChecker - The hardware meets the minimum system requirements for Windows 11
+2024-10-17 01:23:56 [main] [34mINFO[0;39m n.c.m.hardware.RequirementsChecker - Disk type: null
+2024-10-17 01:23:56 [main] [31mWARN[0;39m n.c.m.hardware.RequirementsChecker - Your hardware does not meet the minimum system requirements for Windows 11
+2024-10-17 01:23:56 [main] [31mWARN[0;39m n.c.m.hardware.RequirementsChecker - - CPU does not meet generation requirements (min. 8)
+2024-10-17 01:23:56 [main] [34mINFO[0;39m n.c.m.hardware.RequirementsChecker - Disk type: null
+2024-10-17 01:23:56 [main] [31mWARN[0;39m n.c.m.hardware.RequirementsChecker - Your hardware does not meet the minimum system requirements for Windows 11
+2024-10-17 01:23:56 [main] [31mWARN[0;39m n.c.m.hardware.RequirementsChecker - - CPU does not meet generation requirements (min. 8)
+2024-10-17 01:23:56 [main] [34mINFO[0;39m n.c.m.hardware.RequirementsChecker - Disk type: null
+2024-10-17 01:23:56 [main] [31mWARN[0;39m n.c.m.hardware.RequirementsChecker - Your hardware does not meet the minimum system requirements for Windows 11
+2024-10-17 01:23:56 [main] [31mWARN[0;39m n.c.m.hardware.RequirementsChecker - - CPU does not meet generation requirements (min. 8)
+2024-10-17 01:23:56 [main] [34mINFO[0;39m n.c.m.hardware.RequirementsChecker - Disk type: null
+2024-10-17 01:23:56 [main] [39mTRACE[0;39m n.c.m.hardware.RequirementsChecker - The hardware meets the minimum system requirements for Windows 11
+2024-10-17 01:23:56 [main] [34mINFO[0;39m n.c.m.hardware.RequirementsChecker - Disk type: null
+2024-10-17 01:23:56 [main] [39mTRACE[0;39m n.c.m.hardware.RequirementsChecker - The hardware meets the minimum system requirements for Windows 11
+2024-10-17 01:23:56 [main] [34mINFO[0;39m n.c.m.hardware.RequirementsChecker - Disk type: null
+2024-10-17 01:23:56 [main] [39mTRACE[0;39m n.c.m.hardware.RequirementsChecker - The hardware meets the minimum system requirements for Windows 11
+2024-10-17 01:23:56 [main] [34mINFO[0;39m n.c.m.hardware.RequirementsChecker - Disk type: null
+2024-10-17 01:23:56 [main] [31mWARN[0;39m n.c.m.hardware.RequirementsChecker - Your hardware does not meet the minimum system requirements for Windows 11
+2024-10-17 01:23:56 [main] [31mWARN[0;39m n.c.m.hardware.RequirementsChecker - - RAM does not meet requirements
+2024-10-17 01:23:56 [main] [34mINFO[0;39m n.c.m.hardware.RequirementsChecker - Disk type: null
+2024-10-17 01:38:20 [main] [31mWARN[0;39m n.c.m.hardware.RequirementsChecker - Your hardware does not meet the minimum system requirements for Windows 11
+2024-10-17 01:38:20 [main] [31mWARN[0;39m n.c.m.hardware.RequirementsChecker - - The disk does not meet the requirements
+2024-10-17 01:38:20 [main] [34mINFO[0;39m n.c.m.hardware.RequirementsChecker - Disk type: null
+2024-10-17 01:38:20 [main] [31mWARN[0;39m n.c.m.hardware.RequirementsChecker - Your hardware does not meet the minimum system requirements for Windows 11
+2024-10-17 01:38:20 [main] [31mWARN[0;39m n.c.m.hardware.RequirementsChecker - - CPU does not meet generation requirements (min. 8)
+2024-10-17 01:38:20 [main] [34mINFO[0;39m n.c.m.hardware.RequirementsChecker - Disk type: null
+2024-10-17 01:38:20 [main] [39mTRACE[0;39m n.c.m.hardware.RequirementsChecker - The hardware meets the minimum system requirements for Windows 11
+2024-10-17 01:38:20 [main] [34mINFO[0;39m n.c.m.hardware.RequirementsChecker - Disk type: null
+2024-10-17 01:38:20 [main] [31mWARN[0;39m n.c.m.hardware.RequirementsChecker - Your hardware does not meet the minimum system requirements for Windows 11
+2024-10-17 01:38:20 [main] [31mWARN[0;39m n.c.m.hardware.RequirementsChecker - - CPU does not meet generation requirements (min. 8)
+2024-10-17 01:38:20 [main] [34mINFO[0;39m n.c.m.hardware.RequirementsChecker - Disk type: null
+2024-10-17 01:38:20 [main] [31mWARN[0;39m n.c.m.hardware.RequirementsChecker - Your hardware does not meet the minimum system requirements for Windows 11
+2024-10-17 01:38:20 [main] [31mWARN[0;39m n.c.m.hardware.RequirementsChecker - - CPU does not meet generation requirements (min. 8)
+2024-10-17 01:38:20 [main] [34mINFO[0;39m n.c.m.hardware.RequirementsChecker - Disk type: null
+2024-10-17 01:38:20 [main] [31mWARN[0;39m n.c.m.hardware.RequirementsChecker - Your hardware does not meet the minimum system requirements for Windows 11
+2024-10-17 01:38:20 [main] [31mWARN[0;39m n.c.m.hardware.RequirementsChecker - - CPU does not meet generation requirements (min. 8)
+2024-10-17 01:38:20 [main] [34mINFO[0;39m n.c.m.hardware.RequirementsChecker - Disk type: null
+2024-10-17 01:38:20 [main] [39mTRACE[0;39m n.c.m.hardware.RequirementsChecker - The hardware meets the minimum system requirements for Windows 11
+2024-10-17 01:38:20 [main] [34mINFO[0;39m n.c.m.hardware.RequirementsChecker - Disk type: null
+2024-10-17 01:38:20 [main] [39mTRACE[0;39m n.c.m.hardware.RequirementsChecker - The hardware meets the minimum system requirements for Windows 11
+2024-10-17 01:38:20 [main] [34mINFO[0;39m n.c.m.hardware.RequirementsChecker - Disk type: null
+2024-10-17 01:38:20 [main] [39mTRACE[0;39m n.c.m.hardware.RequirementsChecker - The hardware meets the minimum system requirements for Windows 11
+2024-10-17 01:38:20 [main] [34mINFO[0;39m n.c.m.hardware.RequirementsChecker - Disk type: null
+2024-10-17 01:38:20 [main] [31mWARN[0;39m n.c.m.hardware.RequirementsChecker - Your hardware does not meet the minimum system requirements for Windows 11
+2024-10-17 01:38:20 [main] [31mWARN[0;39m n.c.m.hardware.RequirementsChecker - - RAM does not meet requirements
+2024-10-17 01:38:20 [main] [34mINFO[0;39m n.c.m.hardware.RequirementsChecker - Disk type: null
+2024-10-17 23:49:20 [main] [31mWARN[0;39m n.c.m.hardware.RequirementsChecker - Your hardware does not meet the minimum system requirements for Windows 11
+2024-10-17 23:49:20 [main] [31mWARN[0;39m n.c.m.hardware.RequirementsChecker - - The disk does not meet the requirements
+2024-10-17 23:49:20 [main] [34mINFO[0;39m n.c.m.hardware.RequirementsChecker - Disk type: null
+2024-10-17 23:49:20 [main] [31mWARN[0;39m n.c.m.hardware.RequirementsChecker - Your hardware does not meet the minimum system requirements for Windows 11
+2024-10-17 23:49:20 [main] [31mWARN[0;39m n.c.m.hardware.RequirementsChecker - - CPU does not meet generation requirements (min. 8)
+2024-10-17 23:49:20 [main] [34mINFO[0;39m n.c.m.hardware.RequirementsChecker - Disk type: null
+2024-10-17 23:49:20 [main] [39mTRACE[0;39m n.c.m.hardware.RequirementsChecker - The hardware meets the minimum system requirements for Windows 11
+2024-10-17 23:49:20 [main] [34mINFO[0;39m n.c.m.hardware.RequirementsChecker - Disk type: null
+2024-10-17 23:49:20 [main] [31mWARN[0;39m n.c.m.hardware.RequirementsChecker - Your hardware does not meet the minimum system requirements for Windows 11
+2024-10-17 23:49:20 [main] [31mWARN[0;39m n.c.m.hardware.RequirementsChecker - - CPU does not meet generation requirements (min. 8)
+2024-10-17 23:49:20 [main] [34mINFO[0;39m n.c.m.hardware.RequirementsChecker - Disk type: null
+2024-10-17 23:49:20 [main] [31mWARN[0;39m n.c.m.hardware.RequirementsChecker - Your hardware does not meet the minimum system requirements for Windows 11
+2024-10-17 23:49:20 [main] [31mWARN[0;39m n.c.m.hardware.RequirementsChecker - - CPU does not meet generation requirements (min. 8)
+2024-10-17 23:49:20 [main] [34mINFO[0;39m n.c.m.hardware.RequirementsChecker - Disk type: null
+2024-10-17 23:49:20 [main] [31mWARN[0;39m n.c.m.hardware.RequirementsChecker - Your hardware does not meet the minimum system requirements for Windows 11
+2024-10-17 23:49:20 [main] [31mWARN[0;39m n.c.m.hardware.RequirementsChecker - - CPU does not meet generation requirements (min. 8)
+2024-10-17 23:49:20 [main] [34mINFO[0;39m n.c.m.hardware.RequirementsChecker - Disk type: null
+2024-10-17 23:49:20 [main] [39mTRACE[0;39m n.c.m.hardware.RequirementsChecker - The hardware meets the minimum system requirements for Windows 11
+2024-10-17 23:49:20 [main] [34mINFO[0;39m n.c.m.hardware.RequirementsChecker - Disk type: null
+2024-10-17 23:49:20 [main] [39mTRACE[0;39m n.c.m.hardware.RequirementsChecker - The hardware meets the minimum system requirements for Windows 11
+2024-10-17 23:49:20 [main] [34mINFO[0;39m n.c.m.hardware.RequirementsChecker - Disk type: null
+2024-10-17 23:49:20 [main] [39mTRACE[0;39m n.c.m.hardware.RequirementsChecker - The hardware meets the minimum system requirements for Windows 11
+2024-10-17 23:49:20 [main] [34mINFO[0;39m n.c.m.hardware.RequirementsChecker - Disk type: null
+2024-10-17 23:49:20 [main] [31mWARN[0;39m n.c.m.hardware.RequirementsChecker - Your hardware does not meet the minimum system requirements for Windows 11
+2024-10-17 23:49:20 [main] [31mWARN[0;39m n.c.m.hardware.RequirementsChecker - - RAM does not meet requirements
+2024-10-17 23:49:20 [main] [34mINFO[0;39m n.c.m.hardware.RequirementsChecker - Disk type: null
+2024-10-17 23:51:51 [main] [39mTRACE[0;39m n.c.m.hardware.RequirementsChecker - The hardware meets the minimum system requirements for Windows 11
+2024-10-17 23:51:51 [main] [34mINFO[0;39m n.c.m.hardware.RequirementsChecker - Disk type: null
+2024-10-17 23:51:51 [main] [31mWARN[0;39m n.c.m.hardware.RequirementsChecker - Your hardware does not meet the minimum system requirements for Windows 11
+2024-10-17 23:51:51 [main] [31mWARN[0;39m n.c.m.hardware.RequirementsChecker - - CPU does not meet generation requirements (min. 8)
+2024-10-17 23:51:51 [main] [34mINFO[0;39m n.c.m.hardware.RequirementsChecker - Disk type: null
+2024-10-17 23:51:51 [main] [31mWARN[0;39m n.c.m.hardware.RequirementsChecker - Your hardware does not meet the minimum system requirements for Windows 11
+2024-10-17 23:51:51 [main] [31mWARN[0;39m n.c.m.hardware.RequirementsChecker - - CPU does not meet generation requirements (min. 8)
+2024-10-17 23:51:51 [main] [34mINFO[0;39m n.c.m.hardware.RequirementsChecker - Disk type: null
+2024-10-17 23:51:51 [main] [31mWARN[0;39m n.c.m.hardware.RequirementsChecker - Your hardware does not meet the minimum system requirements for Windows 11
+2024-10-17 23:51:51 [main] [31mWARN[0;39m n.c.m.hardware.RequirementsChecker - - CPU does not meet generation requirements (min. 8)
+2024-10-17 23:51:51 [main] [34mINFO[0;39m n.c.m.hardware.RequirementsChecker - Disk type: null
+2024-10-17 23:51:51 [main] [39mTRACE[0;39m n.c.m.hardware.RequirementsChecker - The hardware meets the minimum system requirements for Windows 11
+2024-10-17 23:51:51 [main] [34mINFO[0;39m n.c.m.hardware.RequirementsChecker - Disk type: null
+2024-10-17 23:51:51 [main] [39mTRACE[0;39m n.c.m.hardware.RequirementsChecker - The hardware meets the minimum system requirements for Windows 11
+2024-10-17 23:51:51 [main] [34mINFO[0;39m n.c.m.hardware.RequirementsChecker - Disk type: null
+2024-10-17 23:51:51 [main] [39mTRACE[0;39m n.c.m.hardware.RequirementsChecker - The hardware meets the minimum system requirements for Windows 11
+2024-10-17 23:51:51 [main] [34mINFO[0;39m n.c.m.hardware.RequirementsChecker - Disk type: null
+2024-10-17 23:53:18 [main] [39mTRACE[0;39m n.c.m.hardware.RequirementsChecker - The hardware meets the minimum system requirements for Windows 11
+2024-10-17 23:53:18 [main] [34mINFO[0;39m n.c.m.hardware.RequirementsChecker - Disk type: null
+2024-10-17 23:53:18 [main] [31mWARN[0;39m n.c.m.hardware.RequirementsChecker - Your hardware does not meet the minimum system requirements for Windows 11
+2024-10-17 23:53:18 [main] [31mWARN[0;39m n.c.m.hardware.RequirementsChecker - - CPU does not meet generation requirements (min. 8)
+2024-10-17 23:53:18 [main] [34mINFO[0;39m n.c.m.hardware.RequirementsChecker - Disk type: null
+2024-10-17 23:53:18 [main] [31mWARN[0;39m n.c.m.hardware.RequirementsChecker - Your hardware does not meet the minimum system requirements for Windows 11
+2024-10-17 23:53:18 [main] [31mWARN[0;39m n.c.m.hardware.RequirementsChecker - - CPU does not meet generation requirements (min. 8)
+2024-10-17 23:53:18 [main] [34mINFO[0;39m n.c.m.hardware.RequirementsChecker - Disk type: null
+2024-10-17 23:53:18 [main] [31mWARN[0;39m n.c.m.hardware.RequirementsChecker - Your hardware does not meet the minimum system requirements for Windows 11
+2024-10-17 23:53:18 [main] [31mWARN[0;39m n.c.m.hardware.RequirementsChecker - - CPU does not meet generation requirements (min. 8)
+2024-10-17 23:53:18 [main] [34mINFO[0;39m n.c.m.hardware.RequirementsChecker - Disk type: null
+2024-10-17 23:53:18 [main] [39mTRACE[0;39m n.c.m.hardware.RequirementsChecker - The hardware meets the minimum system requirements for Windows 11
+2024-10-17 23:53:18 [main] [34mINFO[0;39m n.c.m.hardware.RequirementsChecker - Disk type: null
+2024-10-17 23:53:18 [main] [39mTRACE[0;39m n.c.m.hardware.RequirementsChecker - The hardware meets the minimum system requirements for Windows 11
+2024-10-17 23:53:18 [main] [34mINFO[0;39m n.c.m.hardware.RequirementsChecker - Disk type: null
+2024-10-17 23:53:18 [main] [39mTRACE[0;39m n.c.m.hardware.RequirementsChecker - The hardware meets the minimum system requirements for Windows 11
+2024-10-17 23:53:18 [main] [34mINFO[0;39m n.c.m.hardware.RequirementsChecker - Disk type: null
+2024-10-18 00:01:12 [AWT-EventQueue-0] [39mDEBUG[0;39m o.u.p.windows.PerfCounterQuery - Localized PhysicalDisk to PhysicalDisk
+2024-10-18 00:01:12 [AWT-EventQueue-0] [39mTRACE[0;39m n.c.m.hardware.RequirementsChecker - The hardware meets the minimum system requirements for Windows 11
+2024-10-18 00:01:12 [AWT-EventQueue-0] [34mINFO[0;39m n.c.m.hardware.RequirementsChecker - Disk type: UNKNOWN
+2024-10-18 00:01:12 [AWT-EventQueue-0] [39mTRACE[0;39m n.c.m.hardware.RequirementsChecker - The hardware meets the minimum system requirements for Windows 11
+2024-10-18 00:01:12 [AWT-EventQueue-0] [34mINFO[0;39m n.c.m.hardware.RequirementsChecker - Disk type: UNKNOWN
+2024-10-18 00:01:14 [AWT-EventQueue-0] [39mTRACE[0;39m n.c.m.hardware.RequirementsChecker - The hardware meets the minimum system requirements for Windows 11
+2024-10-18 00:01:14 [AWT-EventQueue-0] [34mINFO[0;39m n.c.m.hardware.RequirementsChecker - Disk type: UNKNOWN
+2024-10-18 00:01:14 [AWT-EventQueue-0] [39mTRACE[0;39m n.c.m.hardware.RequirementsChecker - The hardware meets the minimum system requirements for Windows 11
+2024-10-18 00:01:14 [AWT-EventQueue-0] [34mINFO[0;39m n.c.m.hardware.RequirementsChecker - Disk type: UNKNOWN
+2024-10-18 00:10:45 [AWT-EventQueue-0] [39mDEBUG[0;39m o.u.p.windows.PerfCounterQuery - Localized PhysicalDisk to PhysicalDisk
+2024-10-18 00:10:45 [AWT-EventQueue-0] [39mTRACE[0;39m n.c.m.hardware.RequirementsChecker - The hardware meets the minimum system requirements for Windows 11
+2024-10-18 00:10:45 [AWT-EventQueue-0] [34mINFO[0;39m n.c.m.hardware.RequirementsChecker - Disk type: UNKNOWN
+2024-10-18 00:10:45 [AWT-EventQueue-0] [39mTRACE[0;39m n.c.m.hardware.RequirementsChecker - The hardware meets the minimum system requirements for Windows 11
+2024-10-18 00:10:45 [AWT-EventQueue-0] [34mINFO[0;39m n.c.m.hardware.RequirementsChecker - Disk type: UNKNOWN
+2024-10-18 00:10:46 [AWT-EventQueue-0] [39mTRACE[0;39m n.c.m.hardware.RequirementsChecker - The hardware meets the minimum system requirements for Windows 11
+2024-10-18 00:10:46 [AWT-EventQueue-0] [34mINFO[0;39m n.c.m.hardware.RequirementsChecker - Disk type: UNKNOWN
+2024-11-06 02:29:10 [AWT-EventQueue-0] [39mDEBUG[0;39m o.u.p.windows.PerfCounterQuery - Localized PhysicalDisk to PhysicalDisk
+2024-11-06 02:29:10 [AWT-EventQueue-0] [39mTRACE[0;39m n.c.m.hardware.RequirementsChecker - The hardware meets the minimum system requirements for Windows 11
+2024-11-06 02:29:10 [AWT-EventQueue-0] [34mINFO[0;39m n.c.m.hardware.RequirementsChecker - Disk type: UNKNOWN
+2024-11-06 02:29:10 [AWT-EventQueue-0] [39mTRACE[0;39m n.c.m.hardware.RequirementsChecker - The hardware meets the minimum system requirements for Windows 11
+2024-11-06 02:29:10 [AWT-EventQueue-0] [34mINFO[0;39m n.c.m.hardware.RequirementsChecker - Disk type: UNKNOWN
+2024-11-06 02:29:12 [AWT-EventQueue-0] [39mTRACE[0;39m n.c.m.hardware.RequirementsChecker - The hardware meets the minimum system requirements for Windows 11
+2024-11-06 02:29:12 [AWT-EventQueue-0] [34mINFO[0;39m n.c.m.hardware.RequirementsChecker - Disk type: UNKNOWN
+2024-11-06 02:53:19 [AWT-EventQueue-0] [39mDEBUG[0;39m o.u.p.windows.PerfCounterQuery - Localized PhysicalDisk to PhysicalDisk
+2024-11-06 02:53:19 [AWT-EventQueue-0] [39mTRACE[0;39m n.c.m.hardware.RequirementsChecker - The hardware meets the minimum system requirements for Windows 11
+2024-11-06 02:53:19 [AWT-EventQueue-0] [34mINFO[0;39m n.c.m.hardware.RequirementsChecker - Disk type: UNKNOWN
+2024-11-06 02:53:19 [AWT-EventQueue-0] [39mTRACE[0;39m n.c.m.hardware.RequirementsChecker - The hardware meets the minimum system requirements for Windows 11
+2024-11-06 02:53:19 [AWT-EventQueue-0] [34mINFO[0;39m n.c.m.hardware.RequirementsChecker - Disk type: UNKNOWN
+2024-11-06 02:58:34 [AWT-EventQueue-0] [39mDEBUG[0;39m o.u.p.windows.PerfCounterQuery - Localized PhysicalDisk to PhysicalDisk
+2024-11-06 02:58:34 [AWT-EventQueue-0] [39mTRACE[0;39m n.c.m.hardware.RequirementsChecker - The hardware meets the minimum system requirements for Windows 11
+2024-11-06 02:58:34 [AWT-EventQueue-0] [34mINFO[0;39m n.c.m.hardware.RequirementsChecker - Disk type: UNKNOWN
+2024-11-06 02:58:34 [AWT-EventQueue-0] [39mTRACE[0;39m n.c.m.hardware.RequirementsChecker - The hardware meets the minimum system requirements for Windows 11
+2024-11-06 02:58:34 [AWT-EventQueue-0] [34mINFO[0;39m n.c.m.hardware.RequirementsChecker - Disk type: UNKNOWN
+2024-11-06 14:22:59 [AWT-EventQueue-0] [39mDEBUG[0;39m o.u.p.windows.PerfCounterQuery - Localized PhysicalDisk to PhysicalDisk
+2024-11-06 14:22:59 [AWT-EventQueue-0] [39mTRACE[0;39m n.c.m.hardware.RequirementsChecker - The hardware meets the minimum system requirements for Windows 11
+2024-11-06 14:22:59 [AWT-EventQueue-0] [34mINFO[0;39m n.c.m.hardware.RequirementsChecker - Disk type: UNKNOWN
+2024-11-06 14:22:59 [AWT-EventQueue-0] [39mTRACE[0;39m n.c.m.hardware.RequirementsChecker - The hardware meets the minimum system requirements for Windows 11
+2024-11-06 14:22:59 [AWT-EventQueue-0] [34mINFO[0;39m n.c.m.hardware.RequirementsChecker - Disk type: UNKNOWN
+2024-11-07 01:15:05 [AWT-EventQueue-0] [39mDEBUG[0;39m o.u.p.windows.PerfCounterQuery - Localized PhysicalDisk to PhysicalDisk
+2024-11-07 01:15:05 [AWT-EventQueue-0] [39mTRACE[0;39m n.c.m.hardware.RequirementsChecker - The hardware meets the minimum system requirements for Windows 11
+2024-11-07 01:15:05 [AWT-EventQueue-0] [34mINFO[0;39m n.c.m.hardware.RequirementsChecker - Disk type: UNKNOWN
+2024-11-07 01:15:05 [AWT-EventQueue-0] [39mTRACE[0;39m n.c.m.hardware.RequirementsChecker - The hardware meets the minimum system requirements for Windows 11
+2024-11-07 01:15:05 [AWT-EventQueue-0] [34mINFO[0;39m n.c.m.hardware.RequirementsChecker - Disk type: UNKNOWN
+2024-11-07 01:47:16 [AWT-EventQueue-0] [39mTRACE[0;39m n.c.m.hardware.HardwareDownloader - [Intel(R), Core(TM), i7-9700K, CPU, @, 3.60, , , ]
+2024-11-07 01:47:17 [AWT-EventQueue-0] [39mDEBUG[0;39m o.u.p.windows.PerfCounterQuery - Localized PhysicalDisk to PhysicalDisk
+2024-11-07 01:47:17 [AWT-EventQueue-0] [39mTRACE[0;39m n.c.m.hardware.RequirementsChecker - The hardware meets the minimum system requirements for Windows 11
+2024-11-07 01:47:17 [AWT-EventQueue-0] [34mINFO[0;39m n.c.m.hardware.RequirementsChecker - Disk type: UNKNOWN
+2024-11-07 01:47:17 [AWT-EventQueue-0] [39mTRACE[0;39m n.c.m.hardware.HardwareDownloader - [Intel(R), Core(TM), i7-9700K, CPU, @, 3.60, , , ]
+2024-11-07 01:47:17 [AWT-EventQueue-0] [39mTRACE[0;39m n.c.m.hardware.RequirementsChecker - The hardware meets the minimum system requirements for Windows 11
+2024-11-07 01:47:17 [AWT-EventQueue-0] [34mINFO[0;39m n.c.m.hardware.RequirementsChecker - Disk type: UNKNOWN
+2024-11-07 01:52:24 [AWT-EventQueue-0] [39mTRACE[0;39m n.c.m.hardware.HardwareDownloader - [Intel(R), Core(TM), i7-9700K, CPU, @, 3.60, , , ]
+2024-11-07 01:52:24 [AWT-EventQueue-0] [39mDEBUG[0;39m o.u.p.windows.PerfCounterQuery - Localized PhysicalDisk to PhysicalDisk
+2024-11-07 01:52:24 [AWT-EventQueue-0] [39mTRACE[0;39m n.c.m.hardware.RequirementsChecker - The hardware meets the minimum system requirements for Windows 11
+2024-11-07 01:52:24 [AWT-EventQueue-0] [34mINFO[0;39m n.c.m.hardware.RequirementsChecker - Disk type: UNKNOWN
+2024-11-07 01:52:24 [AWT-EventQueue-0] [39mTRACE[0;39m n.c.m.hardware.HardwareDownloader - [Intel(R), Core(TM), i7-9700K, CPU, @, 3.60, , , ]
+2024-11-07 01:52:24 [AWT-EventQueue-0] [39mTRACE[0;39m n.c.m.hardware.RequirementsChecker - The hardware meets the minimum system requirements for Windows 11
+2024-11-07 01:52:24 [AWT-EventQueue-0] [34mINFO[0;39m n.c.m.hardware.RequirementsChecker - Disk type: UNKNOWN
+2024-11-07 01:53:26 [AWT-EventQueue-0] [39mTRACE[0;39m n.c.m.hardware.HardwareDownloader - [Intel(R), Core(TM), i7-9700K, CPU, @, 3.60, , , ]
+2024-11-07 01:53:27 [AWT-EventQueue-0] [39mDEBUG[0;39m o.u.p.windows.PerfCounterQuery - Localized PhysicalDisk to PhysicalDisk
+2024-11-07 01:53:27 [AWT-EventQueue-0] [39mTRACE[0;39m n.c.m.hardware.RequirementsChecker - The hardware meets the minimum system requirements for Windows 11
+2024-11-07 01:53:27 [AWT-EventQueue-0] [34mINFO[0;39m n.c.m.hardware.RequirementsChecker - Disk type: UNKNOWN
+2024-11-07 01:53:27 [AWT-EventQueue-0] [39mTRACE[0;39m n.c.m.hardware.HardwareDownloader - [Intel(R), Core(TM), i7-9700K, CPU, @, 3.60, , , ]
+2024-11-07 01:53:27 [AWT-EventQueue-0] [39mTRACE[0;39m n.c.m.hardware.RequirementsChecker - The hardware meets the minimum system requirements for Windows 11
+2024-11-07 01:53:27 [AWT-EventQueue-0] [34mINFO[0;39m n.c.m.hardware.RequirementsChecker - Disk type: UNKNOWN
+2024-11-07 01:57:04 [AWT-EventQueue-0] [39mTRACE[0;39m n.c.m.hardware.HardwareDownloader - [Intel(R), Core(TM), i7-9700K, CPU, @, 3.60, , , ]
+2024-11-07 01:57:05 [AWT-EventQueue-0] [39mDEBUG[0;39m o.u.p.windows.PerfCounterQuery - Localized PhysicalDisk to PhysicalDisk
+2024-11-07 01:57:05 [AWT-EventQueue-0] [39mTRACE[0;39m n.c.m.hardware.RequirementsChecker - The hardware meets the minimum system requirements for Windows 11
+2024-11-07 01:57:05 [AWT-EventQueue-0] [34mINFO[0;39m n.c.m.hardware.RequirementsChecker - Disk type: UNKNOWN
+2024-11-07 01:57:05 [AWT-EventQueue-0] [39mTRACE[0;39m n.c.m.hardware.HardwareDownloader - [Intel(R), Core(TM), i7-9700K, CPU, @, 3.60, , , ]
+2024-11-07 01:57:05 [AWT-EventQueue-0] [39mTRACE[0;39m n.c.m.hardware.RequirementsChecker - The hardware meets the minimum system requirements for Windows 11
+2024-11-07 01:57:05 [AWT-EventQueue-0] [34mINFO[0;39m n.c.m.hardware.RequirementsChecker - Disk type: UNKNOWN
+2024-11-10 03:00:55 [AWT-EventQueue-0] [39mTRACE[0;39m n.c.m.hardware.HardwareDownloader - [Intel(R), Core(TM), i7-9700K, CPU, @, 3.60, , , ]
+2024-11-10 03:00:55 [AWT-EventQueue-0] [39mDEBUG[0;39m o.u.p.windows.PerfCounterQuery - Localized PhysicalDisk to PhysicalDisk
+2024-11-10 03:00:55 [AWT-EventQueue-0] [39mTRACE[0;39m n.c.m.hardware.RequirementsChecker - The hardware meets the minimum system requirements for Windows 11
+2024-11-10 03:00:55 [AWT-EventQueue-0] [34mINFO[0;39m n.c.m.hardware.RequirementsChecker - Disk type: UNKNOWN
+2024-11-10 03:00:55 [AWT-EventQueue-0] [39mTRACE[0;39m n.c.m.hardware.HardwareDownloader - [Intel(R), Core(TM), i7-9700K, CPU, @, 3.60, , , ]
+2024-11-10 03:00:55 [AWT-EventQueue-0] [39mTRACE[0;39m n.c.m.hardware.RequirementsChecker - The hardware meets the minimum system requirements for Windows 11
+2024-11-10 03:00:55 [AWT-EventQueue-0] [34mINFO[0;39m n.c.m.hardware.RequirementsChecker - Disk type: UNKNOWN
+2024-11-10 03:05:58 [AWT-EventQueue-0] [39mTRACE[0;39m n.c.m.hardware.HardwareDownloader - [Intel(R), Core(TM), i7-9700K, CPU, @, 3.60, , , ]
+2024-11-10 03:05:58 [AWT-EventQueue-0] [39mDEBUG[0;39m o.u.p.windows.PerfCounterQuery - Localized PhysicalDisk to PhysicalDisk
+2024-11-10 03:05:58 [AWT-EventQueue-0] [39mTRACE[0;39m n.c.m.hardware.RequirementsChecker - The hardware meets the minimum system requirements for Windows 11
+2024-11-10 03:05:58 [AWT-EventQueue-0] [34mINFO[0;39m n.c.m.hardware.RequirementsChecker - Disk type: UNKNOWN
+2024-11-10 03:05:58 [AWT-EventQueue-0] [39mTRACE[0;39m n.c.m.hardware.HardwareDownloader - [Intel(R), Core(TM), i7-9700K, CPU, @, 3.60, , , ]
+2024-11-10 03:05:58 [AWT-EventQueue-0] [39mTRACE[0;39m n.c.m.hardware.RequirementsChecker - The hardware meets the minimum system requirements for Windows 11
+2024-11-10 03:05:58 [AWT-EventQueue-0] [34mINFO[0;39m n.c.m.hardware.RequirementsChecker - Disk type: UNKNOWN
+2024-11-10 03:09:18 [AWT-EventQueue-0] [39mTRACE[0;39m n.c.m.hardware.HardwareDownloader - [Intel(R), Core(TM), i7-9700K, CPU, @, 3.60, , , ]
+2024-11-10 03:09:18 [AWT-EventQueue-0] [39mDEBUG[0;39m o.u.p.windows.PerfCounterQuery - Localized PhysicalDisk to PhysicalDisk
+2024-11-10 03:09:18 [AWT-EventQueue-0] [39mTRACE[0;39m n.c.m.hardware.RequirementsChecker - The hardware meets the minimum system requirements for Windows 11
+2024-11-10 03:09:18 [AWT-EventQueue-0] [34mINFO[0;39m n.c.m.hardware.RequirementsChecker - Disk type: UNKNOWN
+2024-11-10 03:09:18 [AWT-EventQueue-0] [39mTRACE[0;39m n.c.m.hardware.HardwareDownloader - [Intel(R), Core(TM), i7-9700K, CPU, @, 3.60, , , ]
+2024-11-10 03:09:18 [AWT-EventQueue-0] [39mTRACE[0;39m n.c.m.hardware.RequirementsChecker - The hardware meets the minimum system requirements for Windows 11
+2024-11-10 03:09:18 [AWT-EventQueue-0] [34mINFO[0;39m n.c.m.hardware.RequirementsChecker - Disk type: UNKNOWN
+2024-11-10 03:13:43 [AWT-EventQueue-0] [39mTRACE[0;39m n.c.m.hardware.HardwareDownloader - [Intel(R), Core(TM), i7-9700K, CPU, @, 3.60, , , ]
+2024-11-10 03:13:43 [AWT-EventQueue-0] [39mDEBUG[0;39m o.u.p.windows.PerfCounterQuery - Localized PhysicalDisk to PhysicalDisk
+2024-11-10 03:13:43 [AWT-EventQueue-0] [39mTRACE[0;39m n.c.m.hardware.RequirementsChecker - The hardware meets the minimum system requirements for Windows 11
+2024-11-10 03:13:43 [AWT-EventQueue-0] [34mINFO[0;39m n.c.m.hardware.RequirementsChecker - Disk type: UNKNOWN
+2024-11-10 03:13:43 [AWT-EventQueue-0] [39mTRACE[0;39m n.c.m.hardware.HardwareDownloader - [Intel(R), Core(TM), i7-9700K, CPU, @, 3.60, , , ]
+2024-11-10 03:13:43 [AWT-EventQueue-0] [39mTRACE[0;39m n.c.m.hardware.RequirementsChecker - The hardware meets the minimum system requirements for Windows 11
+2024-11-10 03:13:43 [AWT-EventQueue-0] [34mINFO[0;39m n.c.m.hardware.RequirementsChecker - Disk type: UNKNOWN
+2024-11-10 03:14:33 [AWT-EventQueue-0] [39mTRACE[0;39m n.c.m.hardware.HardwareDownloader - [Intel(R), Core(TM), i7-9700K, CPU, @, 3.60, , , ]
+2024-11-10 03:14:33 [AWT-EventQueue-0] [39mDEBUG[0;39m o.u.p.windows.PerfCounterQuery - Localized PhysicalDisk to PhysicalDisk
+2024-11-10 03:14:33 [AWT-EventQueue-0] [39mTRACE[0;39m n.c.m.hardware.RequirementsChecker - The hardware meets the minimum system requirements for Windows 11
+2024-11-10 03:14:33 [AWT-EventQueue-0] [34mINFO[0;39m n.c.m.hardware.RequirementsChecker - Disk type: UNKNOWN
+2024-11-10 03:14:33 [AWT-EventQueue-0] [39mTRACE[0;39m n.c.m.hardware.HardwareDownloader - [Intel(R), Core(TM), i7-9700K, CPU, @, 3.60, , , ]
+2024-11-10 03:14:33 [AWT-EventQueue-0] [39mTRACE[0;39m n.c.m.hardware.RequirementsChecker - The hardware meets the minimum system requirements for Windows 11
+2024-11-10 03:14:33 [AWT-EventQueue-0] [34mINFO[0;39m n.c.m.hardware.RequirementsChecker - Disk type: UNKNOWN
+2024-11-10 03:14:34 [AWT-EventQueue-0] [39mTRACE[0;39m n.c.m.hardware.HardwareDownloader - [Intel(R), Core(TM), i7-9700K, CPU, @, 3.60, , , ]
+2024-11-10 03:14:34 [AWT-EventQueue-0] [39mTRACE[0;39m n.c.m.hardware.RequirementsChecker - The hardware meets the minimum system requirements for Windows 11
+2024-11-10 03:14:34 [AWT-EventQueue-0] [34mINFO[0;39m n.c.m.hardware.RequirementsChecker - Disk type: UNKNOWN
+2024-11-10 03:14:46 [AWT-EventQueue-0] [39mTRACE[0;39m n.c.m.hardware.HardwareDownloader - [Intel(R), Core(TM), i7-9700K, CPU, @, 3.60, , , ]
+2024-11-10 03:14:46 [AWT-EventQueue-0] [39mDEBUG[0;39m o.u.p.windows.PerfCounterQuery - Localized PhysicalDisk to PhysicalDisk
+2024-11-10 03:14:46 [AWT-EventQueue-0] [39mTRACE[0;39m n.c.m.hardware.RequirementsChecker - The hardware meets the minimum system requirements for Windows 11
+2024-11-10 03:14:46 [AWT-EventQueue-0] [34mINFO[0;39m n.c.m.hardware.RequirementsChecker - Disk type: UNKNOWN
+2024-11-10 03:14:46 [AWT-EventQueue-0] [39mTRACE[0;39m n.c.m.hardware.HardwareDownloader - [Intel(R), Core(TM), i7-9700K, CPU, @, 3.60, , , ]
+2024-11-10 03:14:46 [AWT-EventQueue-0] [39mTRACE[0;39m n.c.m.hardware.RequirementsChecker - The hardware meets the minimum system requirements for Windows 11
+2024-11-10 03:14:46 [AWT-EventQueue-0] [34mINFO[0;39m n.c.m.hardware.RequirementsChecker - Disk type: UNKNOWN
+2024-11-10 03:16:24 [AWT-EventQueue-0] [39mTRACE[0;39m n.c.m.hardware.HardwareDownloader - [Intel(R), Core(TM), i7-9700K, CPU, @, 3.60, , , ]
+2024-11-10 03:16:24 [AWT-EventQueue-0] [39mDEBUG[0;39m o.u.p.windows.PerfCounterQuery - Localized PhysicalDisk to PhysicalDisk
+2024-11-10 03:16:24 [AWT-EventQueue-0] [39mTRACE[0;39m n.c.m.hardware.RequirementsChecker - The hardware meets the minimum system requirements for Windows 11
+2024-11-10 03:16:24 [AWT-EventQueue-0] [34mINFO[0;39m n.c.m.hardware.RequirementsChecker - Disk type: UNKNOWN
+2024-11-10 03:16:24 [AWT-EventQueue-0] [39mTRACE[0;39m n.c.m.hardware.HardwareDownloader - [Intel(R), Core(TM), i7-9700K, CPU, @, 3.60, , , ]
+2024-11-10 03:16:24 [AWT-EventQueue-0] [39mTRACE[0;39m n.c.m.hardware.RequirementsChecker - The hardware meets the minimum system requirements for Windows 11
+2024-11-10 03:16:24 [AWT-EventQueue-0] [34mINFO[0;39m n.c.m.hardware.RequirementsChecker - Disk type: UNKNOWN
+2024-11-10 03:16:37 [AWT-EventQueue-0] [39mTRACE[0;39m n.c.m.hardware.HardwareDownloader - [Intel(R), Core(TM), i7-9700K, CPU, @, 3.60, , , ]
+2024-11-10 03:16:37 [AWT-EventQueue-0] [39mDEBUG[0;39m o.u.p.windows.PerfCounterQuery - Localized PhysicalDisk to PhysicalDisk
+2024-11-10 03:16:37 [AWT-EventQueue-0] [39mTRACE[0;39m n.c.m.hardware.RequirementsChecker - The hardware meets the minimum system requirements for Windows 11
+2024-11-10 03:16:37 [AWT-EventQueue-0] [34mINFO[0;39m n.c.m.hardware.RequirementsChecker - Disk type: UNKNOWN
+2024-11-10 03:16:37 [AWT-EventQueue-0] [39mTRACE[0;39m n.c.m.hardware.HardwareDownloader - [Intel(R), Core(TM), i7-9700K, CPU, @, 3.60, , , ]
+2024-11-10 03:16:37 [AWT-EventQueue-0] [39mTRACE[0;39m n.c.m.hardware.RequirementsChecker - The hardware meets the minimum system requirements for Windows 11
+2024-11-10 03:16:37 [AWT-EventQueue-0] [34mINFO[0;39m n.c.m.hardware.RequirementsChecker - Disk type: UNKNOWN
+2024-11-14 01:49:26 [AWT-EventQueue-0] [39mTRACE[0;39m n.c.m.hardware.HardwareDownloader - [Intel(R), Core(TM), i7-9700K, CPU, @, 3.60, , , ]
+2024-11-14 01:49:26 [AWT-EventQueue-0] [39mDEBUG[0;39m o.u.p.windows.PerfCounterQuery - Localized PhysicalDisk to PhysicalDisk
+2024-11-14 01:49:26 [AWT-EventQueue-0] [39mTRACE[0;39m n.c.m.hardware.RequirementsChecker - The hardware meets the minimum system requirements for Windows 11
+2024-11-14 01:49:26 [AWT-EventQueue-0] [34mINFO[0;39m n.c.m.hardware.RequirementsChecker - Disk type: UNKNOWN
+2024-11-14 01:49:26 [AWT-EventQueue-0] [39mTRACE[0;39m n.c.m.hardware.HardwareDownloader - [Intel(R), Core(TM), i7-9700K, CPU, @, 3.60, , , ]
+2024-11-14 01:49:26 [AWT-EventQueue-0] [39mTRACE[0;39m n.c.m.hardware.RequirementsChecker - The hardware meets the minimum system requirements for Windows 11
+2024-11-14 01:49:26 [AWT-EventQueue-0] [34mINFO[0;39m n.c.m.hardware.RequirementsChecker - Disk type: UNKNOWN
+2024-11-14 01:49:50 [main] [39mTRACE[0;39m n.c.m.hardware.HardwareDownloader - [Intel(R), Core(TM), i7-9700K, CPU, @, 3.60, , , ]
+2024-11-14 01:49:51 [main] [39mTRACE[0;39m n.c.m.hardware.RequirementsChecker - The hardware meets the minimum system requirements for Windows 11
+2024-11-14 01:49:51 [main] [34mINFO[0;39m n.c.m.hardware.RequirementsChecker - Disk type: null
+2024-11-14 01:49:51 [main] [31mWARN[0;39m n.c.m.hardware.RequirementsChecker - Your hardware does not meet the minimum system requirements for Windows 11
+2024-11-14 01:49:51 [main] [31mWARN[0;39m n.c.m.hardware.RequirementsChecker - - CPU does not meet generation requirements (min. 8)
+2024-11-14 01:49:51 [main] [34mINFO[0;39m n.c.m.hardware.RequirementsChecker - Disk type: null
+2024-11-14 01:49:51 [main] [31mWARN[0;39m n.c.m.hardware.RequirementsChecker - Your hardware does not meet the minimum system requirements for Windows 11
+2024-11-14 01:49:51 [main] [31mWARN[0;39m n.c.m.hardware.RequirementsChecker - - CPU does not meet generation requirements (min. 8)
+2024-11-14 01:49:51 [main] [34mINFO[0;39m n.c.m.hardware.RequirementsChecker - Disk type: null
+2024-11-14 01:49:51 [main] [31mWARN[0;39m n.c.m.hardware.RequirementsChecker - Your hardware does not meet the minimum system requirements for Windows 11
+2024-11-14 01:49:51 [main] [31mWARN[0;39m n.c.m.hardware.RequirementsChecker - - CPU does not meet generation requirements (min. 8)
+2024-11-14 01:49:51 [main] [34mINFO[0;39m n.c.m.hardware.RequirementsChecker - Disk type: null
+2024-11-14 01:49:51 [main] [39mTRACE[0;39m n.c.m.hardware.RequirementsChecker - The hardware meets the minimum system requirements for Windows 11
+2024-11-14 01:49:51 [main] [34mINFO[0;39m n.c.m.hardware.RequirementsChecker - Disk type: null
+2024-11-14 01:49:51 [main] [39mTRACE[0;39m n.c.m.hardware.RequirementsChecker - The hardware meets the minimum system requirements for Windows 11
+2024-11-14 01:49:51 [main] [34mINFO[0;39m n.c.m.hardware.RequirementsChecker - Disk type: null
+2024-11-14 01:49:51 [main] [39mTRACE[0;39m n.c.m.hardware.RequirementsChecker - The hardware meets the minimum system requirements for Windows 11
+2024-11-14 01:49:51 [main] [34mINFO[0;39m n.c.m.hardware.RequirementsChecker - Disk type: null
+2024-11-14 02:21:00 [main] [39mTRACE[0;39m n.c.m.hardware.HardwareDownloader - [Intel(R), Core(TM), i7-9700K, CPU, @, 3.60, , , ]
+2024-11-14 02:21:00 [main] [39mTRACE[0;39m n.c.m.hardware.RequirementsChecker - The hardware meets the minimum system requirements for Windows 11
+2024-11-14 02:21:00 [main] [34mINFO[0;39m n.c.m.hardware.RequirementsChecker - Disk type: null
+2024-11-14 02:21:01 [main] [31mWARN[0;39m n.c.m.hardware.RequirementsChecker - Your hardware does not meet the minimum system requirements for Windows 11
+2024-11-14 02:21:01 [main] [31mWARN[0;39m n.c.m.hardware.RequirementsChecker - - CPU does not meet generation requirements (min. 8)
+2024-11-14 02:21:01 [main] [34mINFO[0;39m n.c.m.hardware.RequirementsChecker - Disk type: null
+2024-11-14 02:21:01 [main] [31mWARN[0;39m n.c.m.hardware.RequirementsChecker - Your hardware does not meet the minimum system requirements for Windows 11
+2024-11-14 02:21:01 [main] [31mWARN[0;39m n.c.m.hardware.RequirementsChecker - - CPU does not meet generation requirements (min. 8)
+2024-11-14 02:21:01 [main] [34mINFO[0;39m n.c.m.hardware.RequirementsChecker - Disk type: null
+2024-11-14 02:21:01 [main] [31mWARN[0;39m n.c.m.hardware.RequirementsChecker - Your hardware does not meet the minimum system requirements for Windows 11
+2024-11-14 02:21:01 [main] [31mWARN[0;39m n.c.m.hardware.RequirementsChecker - - CPU does not meet generation requirements (min. 8)
+2024-11-14 02:21:01 [main] [34mINFO[0;39m n.c.m.hardware.RequirementsChecker - Disk type: null
+2024-11-14 02:21:01 [main] [39mTRACE[0;39m n.c.m.hardware.RequirementsChecker - The hardware meets the minimum system requirements for Windows 11
+2024-11-14 02:21:01 [main] [34mINFO[0;39m n.c.m.hardware.RequirementsChecker - Disk type: null
+2024-11-14 02:21:01 [main] [39mTRACE[0;39m n.c.m.hardware.RequirementsChecker - The hardware meets the minimum system requirements for Windows 11
+2024-11-14 02:21:01 [main] [34mINFO[0;39m n.c.m.hardware.RequirementsChecker - Disk type: null
+2024-11-14 02:21:01 [main] [39mTRACE[0;39m n.c.m.hardware.RequirementsChecker - The hardware meets the minimum system requirements for Windows 11
+2024-11-14 02:21:01 [main] [34mINFO[0;39m n.c.m.hardware.RequirementsChecker - Disk type: null
+2024-11-14 02:21:52 [main] [39mTRACE[0;39m n.c.m.hardware.HardwareDownloader - [Intel(R), Core(TM), i7-9700K, CPU, @, 3.60, , , ]
+2024-11-14 02:21:52 [main] [39mTRACE[0;39m n.c.m.hardware.RequirementsChecker - The hardware meets the minimum system requirements for Windows 11
+2024-11-14 02:21:52 [main] [34mINFO[0;39m n.c.m.hardware.RequirementsChecker - Disk type: null
+2024-11-14 02:21:52 [main] [31mWARN[0;39m n.c.m.hardware.RequirementsChecker - Your hardware does not meet the minimum system requirements for Windows 11
+2024-11-14 02:21:52 [main] [31mWARN[0;39m n.c.m.hardware.RequirementsChecker - - CPU does not meet generation requirements (min. 8)
+2024-11-14 02:21:52 [main] [34mINFO[0;39m n.c.m.hardware.RequirementsChecker - Disk type: null
+2024-11-14 02:21:52 [main] [31mWARN[0;39m n.c.m.hardware.RequirementsChecker - Your hardware does not meet the minimum system requirements for Windows 11
+2024-11-14 02:21:52 [main] [31mWARN[0;39m n.c.m.hardware.RequirementsChecker - - CPU does not meet generation requirements (min. 8)
+2024-11-14 02:21:52 [main] [34mINFO[0;39m n.c.m.hardware.RequirementsChecker - Disk type: null
+2024-11-14 02:21:52 [main] [31mWARN[0;39m n.c.m.hardware.RequirementsChecker - Your hardware does not meet the minimum system requirements for Windows 11
+2024-11-14 02:21:52 [main] [31mWARN[0;39m n.c.m.hardware.RequirementsChecker - - CPU does not meet generation requirements (min. 8)
+2024-11-14 02:21:52 [main] [34mINFO[0;39m n.c.m.hardware.RequirementsChecker - Disk type: null
+2024-11-14 02:21:52 [main] [39mTRACE[0;39m n.c.m.hardware.RequirementsChecker - The hardware meets the minimum system requirements for Windows 11
+2024-11-14 02:21:52 [main] [34mINFO[0;39m n.c.m.hardware.RequirementsChecker - Disk type: null
+2024-11-14 02:21:52 [main] [39mTRACE[0;39m n.c.m.hardware.RequirementsChecker - The hardware meets the minimum system requirements for Windows 11
+2024-11-14 02:21:52 [main] [34mINFO[0;39m n.c.m.hardware.RequirementsChecker - Disk type: null
+2024-11-14 02:21:52 [main] [39mTRACE[0;39m n.c.m.hardware.RequirementsChecker - The hardware meets the minimum system requirements for Windows 11
+2024-11-14 02:21:52 [main] [34mINFO[0;39m n.c.m.hardware.RequirementsChecker - Disk type: null
+2024-11-14 02:21:52 [main] [39mTRACE[0;39m n.c.m.hardware.RequirementsChecker - The hardware meets the minimum system requirements for Windows 11
+2024-11-14 02:21:52 [main] [34mINFO[0;39m n.c.m.hardware.RequirementsChecker - Disk type: null
+2024-11-14 02:21:52 [main] [31mWARN[0;39m n.c.m.hardware.RequirementsChecker - Your hardware does not meet the minimum system requirements for Windows 11
+2024-11-14 02:21:52 [main] [31mWARN[0;39m n.c.m.hardware.RequirementsChecker - - CPU does not meet generation requirements (min. 8)
+2024-11-14 02:21:52 [main] [34mINFO[0;39m n.c.m.hardware.RequirementsChecker - Disk type: null
+2024-11-14 02:21:52 [main] [31mWARN[0;39m n.c.m.hardware.RequirementsChecker - Your hardware does not meet the minimum system requirements for Windows 11
+2024-11-14 02:21:52 [main] [31mWARN[0;39m n.c.m.hardware.RequirementsChecker - - CPU does not meet generation requirements (min. 8)
+2024-11-14 02:21:52 [main] [34mINFO[0;39m n.c.m.hardware.RequirementsChecker - Disk type: null
+2024-11-14 02:21:52 [main] [31mWARN[0;39m n.c.m.hardware.RequirementsChecker - Your hardware does not meet the minimum system requirements for Windows 11
+2024-11-14 02:21:52 [main] [31mWARN[0;39m n.c.m.hardware.RequirementsChecker - - CPU does not meet generation requirements (min. 8)
+2024-11-14 02:21:52 [main] [34mINFO[0;39m n.c.m.hardware.RequirementsChecker - Disk type: null
+2024-11-14 02:21:52 [main] [39mTRACE[0;39m n.c.m.hardware.RequirementsChecker - The hardware meets the minimum system requirements for Windows 11
+2024-11-14 02:21:52 [main] [34mINFO[0;39m n.c.m.hardware.RequirementsChecker - Disk type: null
+2024-11-14 02:21:52 [main] [39mTRACE[0;39m n.c.m.hardware.RequirementsChecker - The hardware meets the minimum system requirements for Windows 11
+2024-11-14 02:21:52 [main] [34mINFO[0;39m n.c.m.hardware.RequirementsChecker - Disk type: null
+2024-11-14 02:21:52 [main] [39mTRACE[0;39m n.c.m.hardware.RequirementsChecker - The hardware meets the minimum system requirements for Windows 11
+2024-11-14 02:21:52 [main] [34mINFO[0;39m n.c.m.hardware.RequirementsChecker - Disk type: null
+2024-11-14 02:22:03 [main] [39mTRACE[0;39m n.c.m.hardware.HardwareDownloader - [Intel(R), Core(TM), i7-9700K, CPU, @, 3.60, , , ]
+2024-11-14 02:22:03 [main] [39mTRACE[0;39m n.c.m.hardware.RequirementsChecker - The hardware meets the minimum system requirements for Windows 11
+2024-11-14 02:22:03 [main] [34mINFO[0;39m n.c.m.hardware.RequirementsChecker - Disk type: null
+2024-11-14 02:22:03 [main] [31mWARN[0;39m n.c.m.hardware.RequirementsChecker - Your hardware does not meet the minimum system requirements for Windows 11
+2024-11-14 02:22:03 [main] [31mWARN[0;39m n.c.m.hardware.RequirementsChecker - - CPU does not meet generation requirements (min. 8)
+2024-11-14 02:22:03 [main] [34mINFO[0;39m n.c.m.hardware.RequirementsChecker - Disk type: null
+2024-11-14 02:22:03 [main] [31mWARN[0;39m n.c.m.hardware.RequirementsChecker - Your hardware does not meet the minimum system requirements for Windows 11
+2024-11-14 02:22:03 [main] [31mWARN[0;39m n.c.m.hardware.RequirementsChecker - - CPU does not meet generation requirements (min. 8)
+2024-11-14 02:22:03 [main] [34mINFO[0;39m n.c.m.hardware.RequirementsChecker - Disk type: null
+2024-11-14 02:22:03 [main] [31mWARN[0;39m n.c.m.hardware.RequirementsChecker - Your hardware does not meet the minimum system requirements for Windows 11
+2024-11-14 02:22:03 [main] [31mWARN[0;39m n.c.m.hardware.RequirementsChecker - - CPU does not meet generation requirements (min. 8)
+2024-11-14 02:22:03 [main] [34mINFO[0;39m n.c.m.hardware.RequirementsChecker - Disk type: null
+2024-11-14 02:22:03 [main] [39mTRACE[0;39m n.c.m.hardware.RequirementsChecker - The hardware meets the minimum system requirements for Windows 11
+2024-11-14 02:22:03 [main] [34mINFO[0;39m n.c.m.hardware.RequirementsChecker - Disk type: null
+2024-11-14 02:22:03 [main] [39mTRACE[0;39m n.c.m.hardware.RequirementsChecker - The hardware meets the minimum system requirements for Windows 11
+2024-11-14 02:22:03 [main] [34mINFO[0;39m n.c.m.hardware.RequirementsChecker - Disk type: null
+2024-11-14 02:22:03 [main] [39mTRACE[0;39m n.c.m.hardware.RequirementsChecker - The hardware meets the minimum system requirements for Windows 11
+2024-11-14 02:22:03 [main] [34mINFO[0;39m n.c.m.hardware.RequirementsChecker - Disk type: null
+2024-11-14 02:22:03 [main] [39mTRACE[0;39m n.c.m.hardware.RequirementsChecker - The hardware meets the minimum system requirements for Windows 11
+2024-11-14 02:22:03 [main] [34mINFO[0;39m n.c.m.hardware.RequirementsChecker - Disk type: null
+2024-11-14 02:22:03 [main] [39mTRACE[0;39m n.c.m.hardware.RequirementsChecker - The hardware meets the minimum system requirements for Windows 11
+2024-11-14 02:22:03 [main] [34mINFO[0;39m n.c.m.hardware.RequirementsChecker - Disk type: null
+2024-11-14 02:22:03 [main] [39mTRACE[0;39m n.c.m.hardware.RequirementsChecker - The hardware meets the minimum system requirements for Windows 11
+2024-11-14 02:22:03 [main] [34mINFO[0;39m n.c.m.hardware.RequirementsChecker - Disk type: null
+2024-11-14 02:22:03 [main] [39mTRACE[0;39m n.c.m.hardware.RequirementsChecker - The hardware meets the minimum system requirements for Windows 11
+2024-11-14 02:22:03 [main] [34mINFO[0;39m n.c.m.hardware.RequirementsChecker - Disk type: null
+2024-11-14 02:22:03 [main] [39mTRACE[0;39m n.c.m.hardware.RequirementsChecker - The hardware meets the minimum system requirements for Windows 11
+2024-11-14 02:22:03 [main] [34mINFO[0;39m n.c.m.hardware.RequirementsChecker - Disk type: null
+2024-11-14 02:22:03 [main] [39mTRACE[0;39m n.c.m.hardware.RequirementsChecker - The hardware meets the minimum system requirements for Windows 11
+2024-11-14 02:22:03 [main] [34mINFO[0;39m n.c.m.hardware.RequirementsChecker - Disk type: null
+2024-11-14 02:22:03 [main] [39mTRACE[0;39m n.c.m.hardware.RequirementsChecker - The hardware meets the minimum system requirements for Windows 11
+2024-11-14 02:22:03 [main] [34mINFO[0;39m n.c.m.hardware.RequirementsChecker - Disk type: null
+2024-11-14 02:23:30 [main] [39mTRACE[0;39m n.c.m.hardware.HardwareDownloader - [Intel(R), Core(TM), i7-9700K, CPU, @, 3.60, , , ]
+2024-11-14 02:23:31 [main] [39mTRACE[0;39m n.c.m.hardware.RequirementsChecker - The hardware meets the minimum system requirements for Windows 11
+2024-11-14 02:23:31 [main] [34mINFO[0;39m n.c.m.hardware.RequirementsChecker - Disk type: null
+2024-11-14 02:23:31 [main] [31mWARN[0;39m n.c.m.hardware.RequirementsChecker - Your hardware does not meet the minimum system requirements for Windows 11
+2024-11-14 02:23:31 [main] [31mWARN[0;39m n.c.m.hardware.RequirementsChecker - - CPU does not meet generation requirements (min. 8)
+2024-11-14 02:23:31 [main] [34mINFO[0;39m n.c.m.hardware.RequirementsChecker - Disk type: null
+2024-11-14 02:23:31 [main] [31mWARN[0;39m n.c.m.hardware.RequirementsChecker - Your hardware does not meet the minimum system requirements for Windows 11
+2024-11-14 02:23:31 [main] [31mWARN[0;39m n.c.m.hardware.RequirementsChecker - - CPU does not meet generation requirements (min. 8)
+2024-11-14 02:23:31 [main] [34mINFO[0;39m n.c.m.hardware.RequirementsChecker - Disk type: null
+2024-11-14 02:23:31 [main] [31mWARN[0;39m n.c.m.hardware.RequirementsChecker - Your hardware does not meet the minimum system requirements for Windows 11
+2024-11-14 02:23:31 [main] [31mWARN[0;39m n.c.m.hardware.RequirementsChecker - - CPU does not meet generation requirements (min. 8)
+2024-11-14 02:23:31 [main] [34mINFO[0;39m n.c.m.hardware.RequirementsChecker - Disk type: null
+2024-11-14 02:23:31 [main] [39mTRACE[0;39m n.c.m.hardware.RequirementsChecker - The hardware meets the minimum system requirements for Windows 11
+2024-11-14 02:23:31 [main] [34mINFO[0;39m n.c.m.hardware.RequirementsChecker - Disk type: null
+2024-11-14 02:23:31 [main] [39mTRACE[0;39m n.c.m.hardware.RequirementsChecker - The hardware meets the minimum system requirements for Windows 11
+2024-11-14 02:23:31 [main] [34mINFO[0;39m n.c.m.hardware.RequirementsChecker - Disk type: null
+2024-11-14 02:23:31 [main] [39mTRACE[0;39m n.c.m.hardware.RequirementsChecker - The hardware meets the minimum system requirements for Windows 11
+2024-11-14 02:23:31 [main] [34mINFO[0;39m n.c.m.hardware.RequirementsChecker - Disk type: null
+2024-11-14 02:23:31 [main] [39mTRACE[0;39m n.c.m.hardware.RequirementsChecker - The hardware meets the minimum system requirements for Windows 11
+2024-11-14 02:23:31 [main] [34mINFO[0;39m n.c.m.hardware.RequirementsChecker - Disk type: null
+2024-11-14 02:23:31 [main] [39mTRACE[0;39m n.c.m.hardware.RequirementsChecker - The hardware meets the minimum system requirements for Windows 11
+2024-11-14 02:23:31 [main] [34mINFO[0;39m n.c.m.hardware.RequirementsChecker - Disk type: null
+2024-11-14 02:23:31 [main] [39mTRACE[0;39m n.c.m.hardware.RequirementsChecker - The hardware meets the minimum system requirements for Windows 11
+2024-11-14 02:23:31 [main] [34mINFO[0;39m n.c.m.hardware.RequirementsChecker - Disk type: null
+2024-11-14 02:23:31 [main] [39mTRACE[0;39m n.c.m.hardware.RequirementsChecker - The hardware meets the minimum system requirements for Windows 11
+2024-11-14 02:23:31 [main] [34mINFO[0;39m n.c.m.hardware.RequirementsChecker - Disk type: null
+2024-11-14 02:23:31 [main] [39mTRACE[0;39m n.c.m.hardware.RequirementsChecker - The hardware meets the minimum system requirements for Windows 11
+2024-11-14 02:23:31 [main] [34mINFO[0;39m n.c.m.hardware.RequirementsChecker - Disk type: null
+2024-11-14 02:23:31 [main] [31mWARN[0;39m n.c.m.hardware.RequirementsChecker - Your hardware does not meet the minimum system requirements for Windows 11
+2024-11-14 02:23:31 [main] [31mWARN[0;39m n.c.m.hardware.RequirementsChecker - - CPU does not meet generation requirements (min. 8)
+2024-11-14 02:23:31 [main] [34mINFO[0;39m n.c.m.hardware.RequirementsChecker - Disk type: null
+2024-11-14 02:23:31 [main] [31mWARN[0;39m n.c.m.hardware.RequirementsChecker - Your hardware does not meet the minimum system requirements for Windows 11
+2024-11-14 02:23:31 [main] [31mWARN[0;39m n.c.m.hardware.RequirementsChecker - - CPU does not meet generation requirements (min. 8)
+2024-11-14 02:23:31 [main] [34mINFO[0;39m n.c.m.hardware.RequirementsChecker - Disk type: null
+2024-11-14 02:24:50 [main] [39mTRACE[0;39m n.c.m.hardware.HardwareDownloader - [Intel(R), Core(TM), i7-9700K, CPU, @, 3.60, , , ]
+2024-11-14 02:24:50 [main] [31mWARN[0;39m n.c.m.hardware.RequirementsChecker - Your hardware does not meet the minimum system requirements for Windows 11
+2024-11-14 02:24:50 [main] [31mWARN[0;39m n.c.m.hardware.RequirementsChecker - - CPU does not meet generation requirements (min. 8)
+2024-11-14 02:24:50 [main] [34mINFO[0;39m n.c.m.hardware.RequirementsChecker - Disk type: null
+2024-11-14 02:24:50 [main] [39mTRACE[0;39m n.c.m.hardware.RequirementsChecker - The hardware meets the minimum system requirements for Windows 11
+2024-11-14 02:24:50 [main] [34mINFO[0;39m n.c.m.hardware.RequirementsChecker - Disk type: null
+2024-11-14 02:24:50 [main] [39mTRACE[0;39m n.c.m.hardware.RequirementsChecker - The hardware meets the minimum system requirements for Windows 11
+2024-11-14 02:24:50 [main] [34mINFO[0;39m n.c.m.hardware.RequirementsChecker - Disk type: null
+2024-11-14 02:24:50 [main] [39mTRACE[0;39m n.c.m.hardware.RequirementsChecker - The hardware meets the minimum system requirements for Windows 11
+2024-11-14 02:24:50 [main] [34mINFO[0;39m n.c.m.hardware.RequirementsChecker - Disk type: null
+2024-11-14 02:24:50 [main] [31mWARN[0;39m n.c.m.hardware.RequirementsChecker - Your hardware does not meet the minimum system requirements for Windows 11
+2024-11-14 02:24:50 [main] [31mWARN[0;39m n.c.m.hardware.RequirementsChecker - - CPU does not meet generation requirements (min. 8)
+2024-11-14 02:24:50 [main] [34mINFO[0;39m n.c.m.hardware.RequirementsChecker - Disk type: null
+2024-11-14 02:24:50 [main] [31mWARN[0;39m n.c.m.hardware.RequirementsChecker - Your hardware does not meet the minimum system requirements for Windows 11
+2024-11-14 02:24:50 [main] [31mWARN[0;39m n.c.m.hardware.RequirementsChecker - - CPU does not meet generation requirements (min. 8)
+2024-11-14 02:24:50 [main] [34mINFO[0;39m n.c.m.hardware.RequirementsChecker - Disk type: null
+2024-11-14 02:24:50 [main] [31mWARN[0;39m n.c.m.hardware.RequirementsChecker - Your hardware does not meet the minimum system requirements for Windows 11
+2024-11-14 02:24:50 [main] [31mWARN[0;39m n.c.m.hardware.RequirementsChecker - - CPU does not meet generation requirements (min. 8)
+2024-11-14 02:24:50 [main] [34mINFO[0;39m n.c.m.hardware.RequirementsChecker - Disk type: null
+2024-11-14 02:24:50 [main] [39mTRACE[0;39m n.c.m.hardware.RequirementsChecker - The hardware meets the minimum system requirements for Windows 11
+2024-11-14 02:24:50 [main] [34mINFO[0;39m n.c.m.hardware.RequirementsChecker - Disk type: null
+2024-11-14 02:24:50 [main] [39mTRACE[0;39m n.c.m.hardware.RequirementsChecker - The hardware meets the minimum system requirements for Windows 11
+2024-11-14 02:24:50 [main] [34mINFO[0;39m n.c.m.hardware.RequirementsChecker - Disk type: null
+2024-11-14 02:24:50 [main] [39mTRACE[0;39m n.c.m.hardware.RequirementsChecker - The hardware meets the minimum system requirements for Windows 11
+2024-11-14 02:24:50 [main] [34mINFO[0;39m n.c.m.hardware.RequirementsChecker - Disk type: null
+2024-11-14 02:24:51 [main] [39mTRACE[0;39m n.c.m.hardware.RequirementsChecker - The hardware meets the minimum system requirements for Windows 11
+2024-11-14 02:24:51 [main] [34mINFO[0;39m n.c.m.hardware.RequirementsChecker - Disk type: null
+2024-11-14 02:24:51 [main] [39mTRACE[0;39m n.c.m.hardware.RequirementsChecker - The hardware meets the minimum system requirements for Windows 11
+2024-11-14 02:24:51 [main] [34mINFO[0;39m n.c.m.hardware.RequirementsChecker - Disk type: null
+2024-11-14 02:24:51 [main] [39mTRACE[0;39m n.c.m.hardware.RequirementsChecker - The hardware meets the minimum system requirements for Windows 11
+2024-11-14 02:24:51 [main] [34mINFO[0;39m n.c.m.hardware.RequirementsChecker - Disk type: null
+2024-11-14 02:24:51 [main] [39mTRACE[0;39m n.c.m.hardware.RequirementsChecker - The hardware meets the minimum system requirements for Windows 11
+2024-11-14 02:24:51 [main] [34mINFO[0;39m n.c.m.hardware.RequirementsChecker - Disk type: null
+2024-11-14 02:24:51 [main] [39mTRACE[0;39m n.c.m.hardware.RequirementsChecker - The hardware meets the minimum system requirements for Windows 11
+2024-11-14 02:24:51 [main] [34mINFO[0;39m n.c.m.hardware.RequirementsChecker - Disk type: null
+2024-11-14 02:24:51 [main] [31mWARN[0;39m n.c.m.hardware.RequirementsChecker - Your hardware does not meet the minimum system requirements for Windows 11
+2024-11-14 02:24:51 [main] [31mWARN[0;39m n.c.m.hardware.RequirementsChecker - - CPU does not meet generation requirements (min. 8)
+2024-11-14 02:24:51 [main] [34mINFO[0;39m n.c.m.hardware.RequirementsChecker - Disk type: null
+2024-11-14 02:24:51 [main] [31mWARN[0;39m n.c.m.hardware.RequirementsChecker - Your hardware does not meet the minimum system requirements for Windows 11
+2024-11-14 02:24:51 [main] [31mWARN[0;39m n.c.m.hardware.RequirementsChecker - - CPU does not meet generation requirements (min. 8)
+2024-11-14 02:24:51 [main] [34mINFO[0;39m n.c.m.hardware.RequirementsChecker - Disk type: null
+2024-11-14 02:24:58 [main] [39mTRACE[0;39m n.c.m.hardware.HardwareDownloader - [Intel(R), Core(TM), i7-9700K, CPU, @, 3.60, , , ]
+2024-11-14 02:24:59 [main] [31mWARN[0;39m n.c.m.hardware.RequirementsChecker - Your hardware does not meet the minimum system requirements for Windows 11
+2024-11-14 02:24:59 [main] [31mWARN[0;39m n.c.m.hardware.RequirementsChecker - - CPU does not meet generation requirements (min. 8)
+2024-11-14 02:24:59 [main] [34mINFO[0;39m n.c.m.hardware.RequirementsChecker - Disk type: null
+2024-11-14 02:24:59 [main] [31mWARN[0;39m n.c.m.hardware.RequirementsChecker - Your hardware does not meet the minimum system requirements for Windows 11
+2024-11-14 02:24:59 [main] [31mWARN[0;39m n.c.m.hardware.RequirementsChecker - - CPU does not meet generation requirements (min. 8)
+2024-11-14 02:24:59 [main] [34mINFO[0;39m n.c.m.hardware.RequirementsChecker - Disk type: null
+2024-11-14 02:24:59 [main] [31mWARN[0;39m n.c.m.hardware.RequirementsChecker - Your hardware does not meet the minimum system requirements for Windows 11
+2024-11-14 02:24:59 [main] [31mWARN[0;39m n.c.m.hardware.RequirementsChecker - - CPU does not meet generation requirements (min. 8)
+2024-11-14 02:24:59 [main] [34mINFO[0;39m n.c.m.hardware.RequirementsChecker - Disk type: null
+2024-11-14 02:24:59 [main] [39mTRACE[0;39m n.c.m.hardware.RequirementsChecker - The hardware meets the minimum system requirements for Windows 11
+2024-11-14 02:24:59 [main] [34mINFO[0;39m n.c.m.hardware.RequirementsChecker - Disk type: null
+2024-11-14 02:24:59 [main] [31mWARN[0;39m n.c.m.hardware.RequirementsChecker - Your hardware does not meet the minimum system requirements for Windows 11
+2024-11-14 02:24:59 [main] [31mWARN[0;39m n.c.m.hardware.RequirementsChecker - - CPU does not meet generation requirements (min. 8)
+2024-11-14 02:24:59 [main] [34mINFO[0;39m n.c.m.hardware.RequirementsChecker - Disk type: null
+2024-11-14 02:24:59 [main] [31mWARN[0;39m n.c.m.hardware.RequirementsChecker - Your hardware does not meet the minimum system requirements for Windows 11
+2024-11-14 02:24:59 [main] [31mWARN[0;39m n.c.m.hardware.RequirementsChecker - - CPU does not meet generation requirements (min. 8)
+2024-11-14 02:24:59 [main] [34mINFO[0;39m n.c.m.hardware.RequirementsChecker - Disk type: null
+2024-11-14 02:24:59 [main] [31mWARN[0;39m n.c.m.hardware.RequirementsChecker - Your hardware does not meet the minimum system requirements for Windows 11
+2024-11-14 02:24:59 [main] [31mWARN[0;39m n.c.m.hardware.RequirementsChecker - - CPU does not meet generation requirements (min. 8)
+2024-11-14 02:24:59 [main] [34mINFO[0;39m n.c.m.hardware.RequirementsChecker - Disk type: null
+2024-11-14 02:24:59 [main] [39mTRACE[0;39m n.c.m.hardware.RequirementsChecker - The hardware meets the minimum system requirements for Windows 11
+2024-11-14 02:24:59 [main] [34mINFO[0;39m n.c.m.hardware.RequirementsChecker - Disk type: null
+2024-11-14 02:24:59 [main] [39mTRACE[0;39m n.c.m.hardware.RequirementsChecker - The hardware meets the minimum system requirements for Windows 11
+2024-11-14 02:24:59 [main] [34mINFO[0;39m n.c.m.hardware.RequirementsChecker - Disk type: null
+2024-11-14 02:24:59 [main] [39mTRACE[0;39m n.c.m.hardware.RequirementsChecker - The hardware meets the minimum system requirements for Windows 11
+2024-11-14 02:24:59 [main] [34mINFO[0;39m n.c.m.hardware.RequirementsChecker - Disk type: null
+2024-11-14 02:24:59 [main] [39mTRACE[0;39m n.c.m.hardware.RequirementsChecker - The hardware meets the minimum system requirements for Windows 11
+2024-11-14 02:24:59 [main] [34mINFO[0;39m n.c.m.hardware.RequirementsChecker - Disk type: null
+2024-11-14 02:24:59 [main] [39mTRACE[0;39m n.c.m.hardware.RequirementsChecker - The hardware meets the minimum system requirements for Windows 11
+2024-11-14 02:24:59 [main] [34mINFO[0;39m n.c.m.hardware.RequirementsChecker - Disk type: null
+2024-11-14 02:24:59 [main] [39mTRACE[0;39m n.c.m.hardware.RequirementsChecker - The hardware meets the minimum system requirements for Windows 11
+2024-11-14 02:24:59 [main] [34mINFO[0;39m n.c.m.hardware.RequirementsChecker - Disk type: null
+2024-11-14 02:24:59 [main] [39mTRACE[0;39m n.c.m.hardware.RequirementsChecker - The hardware meets the minimum system requirements for Windows 11
+2024-11-14 02:24:59 [main] [34mINFO[0;39m n.c.m.hardware.RequirementsChecker - Disk type: null
+2024-11-14 02:24:59 [main] [39mTRACE[0;39m n.c.m.hardware.RequirementsChecker - The hardware meets the minimum system requirements for Windows 11
+2024-11-14 02:24:59 [main] [34mINFO[0;39m n.c.m.hardware.RequirementsChecker - Disk type: null
+2024-11-14 02:24:59 [main] [31mWARN[0;39m n.c.m.hardware.RequirementsChecker - Your hardware does not meet the minimum system requirements for Windows 11
+2024-11-14 02:24:59 [main] [31mWARN[0;39m n.c.m.hardware.RequirementsChecker - - CPU does not meet generation requirements (min. 8)
+2024-11-14 02:24:59 [main] [34mINFO[0;39m n.c.m.hardware.RequirementsChecker - Disk type: null
+2024-11-14 02:24:59 [main] [31mWARN[0;39m n.c.m.hardware.RequirementsChecker - Your hardware does not meet the minimum system requirements for Windows 11
+2024-11-14 02:24:59 [main] [31mWARN[0;39m n.c.m.hardware.RequirementsChecker - - CPU does not meet generation requirements (min. 8)
+2024-11-14 02:24:59 [main] [34mINFO[0;39m n.c.m.hardware.RequirementsChecker - Disk type: null
+2024-11-14 02:25:41 [main] [39mTRACE[0;39m n.c.m.hardware.HardwareDownloader - [Intel(R), Core(TM), i7-9700K, CPU, @, 3.60, , , ]
+2024-11-14 02:25:41 [main] [31mWARN[0;39m n.c.m.hardware.RequirementsChecker - Your hardware does not meet the minimum system requirements for Windows 11
+2024-11-14 02:25:41 [main] [31mWARN[0;39m n.c.m.hardware.RequirementsChecker - - CPU does not meet generation requirements (min. 8)
+2024-11-14 02:25:41 [main] [34mINFO[0;39m n.c.m.hardware.RequirementsChecker - Disk type: null
+2024-11-14 02:25:41 [main] [31mWARN[0;39m n.c.m.hardware.RequirementsChecker - Your hardware does not meet the minimum system requirements for Windows 11
+2024-11-14 02:25:41 [main] [31mWARN[0;39m n.c.m.hardware.RequirementsChecker - - CPU does not meet generation requirements (min. 8)
+2024-11-14 02:25:41 [main] [34mINFO[0;39m n.c.m.hardware.RequirementsChecker - Disk type: null
+2024-11-14 02:25:41 [main] [31mWARN[0;39m n.c.m.hardware.RequirementsChecker - Your hardware does not meet the minimum system requirements for Windows 11
+2024-11-14 02:25:41 [main] [31mWARN[0;39m n.c.m.hardware.RequirementsChecker - - CPU does not meet generation requirements (min. 8)
+2024-11-14 02:25:41 [main] [34mINFO[0;39m n.c.m.hardware.RequirementsChecker - Disk type: null
+2024-11-14 02:25:41 [main] [39mTRACE[0;39m n.c.m.hardware.RequirementsChecker - The hardware meets the minimum system requirements for Windows 11
+2024-11-14 02:25:41 [main] [34mINFO[0;39m n.c.m.hardware.RequirementsChecker - Disk type: null
+2024-11-14 02:25:41 [main] [31mWARN[0;39m n.c.m.hardware.RequirementsChecker - Your hardware does not meet the minimum system requirements for Windows 11
+2024-11-14 02:25:41 [main] [31mWARN[0;39m n.c.m.hardware.RequirementsChecker - - CPU does not meet generation requirements (min. 8)
+2024-11-14 02:25:41 [main] [34mINFO[0;39m n.c.m.hardware.RequirementsChecker - Disk type: null
+2024-11-14 02:25:41 [main] [31mWARN[0;39m n.c.m.hardware.RequirementsChecker - Your hardware does not meet the minimum system requirements for Windows 11
+2024-11-14 02:25:41 [main] [31mWARN[0;39m n.c.m.hardware.RequirementsChecker - - CPU does not meet generation requirements (min. 8)
+2024-11-14 02:25:41 [main] [34mINFO[0;39m n.c.m.hardware.RequirementsChecker - Disk type: null
+2024-11-14 02:25:41 [main] [31mWARN[0;39m n.c.m.hardware.RequirementsChecker - Your hardware does not meet the minimum system requirements for Windows 11
+2024-11-14 02:25:41 [main] [31mWARN[0;39m n.c.m.hardware.RequirementsChecker - - CPU does not meet generation requirements (min. 8)
+2024-11-14 02:25:41 [main] [34mINFO[0;39m n.c.m.hardware.RequirementsChecker - Disk type: null
+2024-11-14 02:25:41 [main] [39mTRACE[0;39m n.c.m.hardware.RequirementsChecker - The hardware meets the minimum system requirements for Windows 11
+2024-11-14 02:25:41 [main] [34mINFO[0;39m n.c.m.hardware.RequirementsChecker - Disk type: null
+2024-11-14 02:25:41 [main] [39mTRACE[0;39m n.c.m.hardware.RequirementsChecker - The hardware meets the minimum system requirements for Windows 11
+2024-11-14 02:25:41 [main] [34mINFO[0;39m n.c.m.hardware.RequirementsChecker - Disk type: null
+2024-11-14 02:25:41 [main] [39mTRACE[0;39m n.c.m.hardware.RequirementsChecker - The hardware meets the minimum system requirements for Windows 11
+2024-11-14 02:25:41 [main] [34mINFO[0;39m n.c.m.hardware.RequirementsChecker - Disk type: null
+2024-11-14 02:25:41 [main] [39mTRACE[0;39m n.c.m.hardware.RequirementsChecker - The hardware meets the minimum system requirements for Windows 11
+2024-11-14 02:25:41 [main] [34mINFO[0;39m n.c.m.hardware.RequirementsChecker - Disk type: null
+2024-11-14 02:25:41 [main] [39mTRACE[0;39m n.c.m.hardware.RequirementsChecker - The hardware meets the minimum system requirements for Windows 11
+2024-11-14 02:25:41 [main] [34mINFO[0;39m n.c.m.hardware.RequirementsChecker - Disk type: null
+2024-11-14 02:25:41 [main] [39mTRACE[0;39m n.c.m.hardware.RequirementsChecker - The hardware meets the minimum system requirements for Windows 11
+2024-11-14 02:25:41 [main] [34mINFO[0;39m n.c.m.hardware.RequirementsChecker - Disk type: null
+2024-11-14 02:25:41 [main] [39mTRACE[0;39m n.c.m.hardware.RequirementsChecker - The hardware meets the minimum system requirements for Windows 11
+2024-11-14 02:25:41 [main] [34mINFO[0;39m n.c.m.hardware.RequirementsChecker - Disk type: null
+2024-11-14 02:25:41 [main] [39mTRACE[0;39m n.c.m.hardware.RequirementsChecker - The hardware meets the minimum system requirements for Windows 11
+2024-11-14 02:25:41 [main] [34mINFO[0;39m n.c.m.hardware.RequirementsChecker - Disk type: null
+2024-11-14 02:25:41 [main] [31mWARN[0;39m n.c.m.hardware.RequirementsChecker - Your hardware does not meet the minimum system requirements for Windows 11
+2024-11-14 02:25:41 [main] [31mWARN[0;39m n.c.m.hardware.RequirementsChecker - - CPU does not meet generation requirements (min. 8)
+2024-11-14 02:25:41 [main] [34mINFO[0;39m n.c.m.hardware.RequirementsChecker - Disk type: null
+2024-11-14 02:25:41 [main] [31mWARN[0;39m n.c.m.hardware.RequirementsChecker - Your hardware does not meet the minimum system requirements for Windows 11
+2024-11-14 02:25:41 [main] [31mWARN[0;39m n.c.m.hardware.RequirementsChecker - - CPU does not meet generation requirements (min. 8)
+2024-11-14 02:25:41 [main] [34mINFO[0;39m n.c.m.hardware.RequirementsChecker - Disk type: null
+2024-11-14 02:25:46 [AWT-EventQueue-0] [39mTRACE[0;39m n.c.m.hardware.HardwareDownloader - [Intel(R), Core(TM), i7-9700K, CPU, @, 3.60, , , ]
+2024-11-14 02:25:47 [AWT-EventQueue-0] [39mDEBUG[0;39m o.u.p.windows.PerfCounterQuery - Localized PhysicalDisk to PhysicalDisk
+2024-11-14 02:25:47 [AWT-EventQueue-0] [39mTRACE[0;39m n.c.m.hardware.RequirementsChecker - The hardware meets the minimum system requirements for Windows 11
+2024-11-14 02:25:47 [AWT-EventQueue-0] [34mINFO[0;39m n.c.m.hardware.RequirementsChecker - Disk type: UNKNOWN
+2024-11-14 02:25:47 [AWT-EventQueue-0] [39mTRACE[0;39m n.c.m.hardware.HardwareDownloader - [Intel(R), Core(TM), i7-9700K, CPU, @, 3.60, , , ]
+2024-11-14 02:25:47 [AWT-EventQueue-0] [39mTRACE[0;39m n.c.m.hardware.RequirementsChecker - The hardware meets the minimum system requirements for Windows 11
+2024-11-14 02:25:47 [AWT-EventQueue-0] [34mINFO[0;39m n.c.m.hardware.RequirementsChecker - Disk type: UNKNOWN
+2024-11-14 02:25:48 [AWT-EventQueue-0] [39mTRACE[0;39m n.c.m.hardware.HardwareDownloader - [Intel(R), Core(TM), i7-9700K, CPU, @, 3.60, , , ]
+2024-11-14 02:25:48 [AWT-EventQueue-0] [39mTRACE[0;39m n.c.m.hardware.RequirementsChecker - The hardware meets the minimum system requirements for Windows 11
+2024-11-14 02:25:48 [AWT-EventQueue-0] [34mINFO[0;39m n.c.m.hardware.RequirementsChecker - Disk type: UNKNOWN
+2024-11-14 02:25:48 [AWT-EventQueue-0] [39mTRACE[0;39m n.c.m.hardware.HardwareDownloader - [Intel(R), Core(TM), i7-9700K, CPU, @, 3.60, , , ]
+2024-11-14 02:25:48 [AWT-EventQueue-0] [39mTRACE[0;39m n.c.m.hardware.RequirementsChecker - The hardware meets the minimum system requirements for Windows 11
+2024-11-14 02:25:48 [AWT-EventQueue-0] [34mINFO[0;39m n.c.m.hardware.RequirementsChecker - Disk type: UNKNOWN
+2024-11-14 02:25:49 [AWT-EventQueue-0] [39mTRACE[0;39m n.c.m.hardware.HardwareDownloader - [Intel(R), Core(TM), i7-9700K, CPU, @, 3.60, , , ]
+2024-11-14 02:25:49 [AWT-EventQueue-0] [39mTRACE[0;39m n.c.m.hardware.RequirementsChecker - The hardware meets the minimum system requirements for Windows 11
+2024-11-14 02:25:49 [AWT-EventQueue-0] [34mINFO[0;39m n.c.m.hardware.RequirementsChecker - Disk type: UNKNOWN
+2024-11-14 02:25:52 [AWT-EventQueue-0] [39mTRACE[0;39m n.c.m.hardware.HardwareDownloader - [Intel(R), Core(TM), i7-9700K, CPU, @, 3.60, , , ]
+2024-11-14 02:25:52 [AWT-EventQueue-0] [39mTRACE[0;39m n.c.m.hardware.RequirementsChecker - The hardware meets the minimum system requirements for Windows 11
+2024-11-14 02:25:52 [AWT-EventQueue-0] [34mINFO[0;39m n.c.m.hardware.RequirementsChecker - Disk type: UNKNOWN

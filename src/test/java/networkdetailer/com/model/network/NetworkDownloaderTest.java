@@ -35,4 +35,38 @@ class NetworkDownloaderTest {
         assertEquals(networkData.mac(), macGetter.get(customInetAddress));
     }
 
+    @Test
+    public void shouldHandleSocketException() throws SocketException, UnknownHostException {
+        // Given
+        IPGetter ipGetter = Mockito.mock(IPGetter.class);
+        MacGetter macGetter = Mockito.mock(MacGetter.class);
+        Mockito.when(ipGetter.get()).thenThrow(new SocketException("Socket error"));
+        NetworkDownloader networkDownloader = new NetworkDownloader(ipGetter, macGetter);
+
+        // When & Then
+        assertThrows(RuntimeException.class, networkDownloader::getData);
+    }
+
+    @Test
+    public void shouldHandleHostnameWithoutSuffix() throws SocketException, UnknownHostException {
+        // Given
+        String hostname = "DESKTOP-SHNJU06";
+        IPGetter ipGetter = Mockito.mock(IPGetter.class);
+        MacGetter macGetter = Mockito.mock(MacGetter.class);
+        InetAddress customInetAddress = Mockito.mock(InetAddress.class);
+        Mockito.when(customInetAddress.getHostAddress()).thenReturn("192.168.1.22");
+        Mockito.when(customInetAddress.getHostName()).thenReturn(hostname);
+
+        Mockito.when(ipGetter.get()).thenReturn(customInetAddress);
+        Mockito.when(macGetter.get(customInetAddress)).thenReturn("00:D8:61:32:CF:86");
+        NetworkDownloader networkDownloader = new NetworkDownloader(ipGetter, macGetter);
+
+        // When
+        NetworkData networkData = networkDownloader.getData();
+
+        // Then
+        assertEquals(networkData.hostname(), hostname);
+        assertEquals(networkData.ip(), customInetAddress.getHostAddress());
+        assertEquals(networkData.mac(), macGetter.get(customInetAddress));
+    }
 }

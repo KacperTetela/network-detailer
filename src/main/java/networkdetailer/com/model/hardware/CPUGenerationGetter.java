@@ -11,7 +11,7 @@ public class CPUGenerationGetter {
 
         if (cpuModel.contains("Intel")) {
             manufacturer = CPUManufacturer.INTEL;
-        } else if (cpuModel.contains("AMD")) {
+        } else if (cpuModel.toUpperCase().contains("AMD")) {
             manufacturer = CPUManufacturer.AMD;
         } else if (cpuModel.contains("Apple")) {
             manufacturer = CPUManufacturer.APPLE;
@@ -25,7 +25,7 @@ public class CPUGenerationGetter {
                 if (!modelNumber.isEmpty()) {
                     generation = Integer.parseInt(modelNumber);
                 }
-            } else if (parts.length > 1) {
+            } else if (parts.length > 1 && manufacturer == CPUManufacturer.INTEL) {
                 String modelNumber = parts[1];
                 char firstChar = modelNumber.charAt(0);
 
@@ -37,6 +37,16 @@ public class CPUGenerationGetter {
                         if (Character.isDigit(secondChar)) {
                             generation = 10 + Character.getNumericValue(secondChar);
                         }
+                    }
+                }
+            } else if (manufacturer == CPUManufacturer.AMD) {
+                // Extract the model number after "Ryzen", e.g., "2700" from "Ryzen 7 2700"
+                int ryzenIndex = cpuModel.indexOf("Ryzen");
+                if (ryzenIndex != -1) {
+                    String modelNumber = cpuModel.substring(ryzenIndex + 7).replaceAll("[^0-9]", "");
+                    if (!modelNumber.isEmpty()) {
+                        // Extract the first digit of the model number to determine the generation
+                        generation = Character.getNumericValue(modelNumber.charAt(0));
                     }
                 }
             }

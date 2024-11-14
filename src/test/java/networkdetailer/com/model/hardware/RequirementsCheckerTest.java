@@ -5,7 +5,11 @@ import networkdetailer.com.model.data.CPUGeneration;
 import networkdetailer.com.model.data.CPUManufacturer;
 import networkdetailer.com.model.data.MemoryData;
 import org.junit.jupiter.api.BeforeEach;
-import org.junit.jupiter.api.Test;
+import org.junit.jupiter.params.ParameterizedTest;
+import org.junit.jupiter.params.provider.Arguments;
+import org.junit.jupiter.params.provider.MethodSource;
+
+import java.util.stream.Stream;
 
 import static org.junit.jupiter.api.Assertions.*;
 import static org.mockito.Mockito.mock;
@@ -19,71 +23,89 @@ class RequirementsCheckerTest {
         requirementsChecker = new RequirementsChecker();
     }
 
-    @Test
-    void check_shouldReturnTrueForValidIntelCPU() {
+    private static Stream<Arguments> computerParametersIntel() {
+        return Stream.of(
+                Arguments.of(8, 12, 122, true),
+                Arguments.of(7, 4, 122, false),
+                Arguments.of(7, 16, 122, false),
+                Arguments.of(7, 32, 512, false),
+                Arguments.of(8, 32, 122, true),
+                Arguments.of(14, 22, 1212, true),
+                Arguments.of(8, 22, 1212, true)
+        );
+    }
+
+    @ParameterizedTest
+    @MethodSource("computerParametersIntel")
+    void parametrizedIntelTest(int generation, int ramSpace, int diskSpace, boolean shouldPass) {
         CPUData cpuData = mock(CPUData.class);
         CPUGeneration cpuGeneration = mock(CPUGeneration.class);
         MemoryData memoryData = mock(MemoryData.class);
 
         when(cpuData.generation()).thenReturn(cpuGeneration);
         when(cpuGeneration.cpuManufacturer()).thenReturn(CPUManufacturer.INTEL);
-        when(cpuGeneration.generation()).thenReturn(8);
+        when(cpuGeneration.generation()).thenReturn(generation);
 
-        when(memoryData.ramGB()).thenReturn(8);
-        when(memoryData.diskSpaceGB()).thenReturn(128);
-
-        boolean result = requirementsChecker.check(cpuData, memoryData);
-        assertTrue(result);
-    }
-
-    @Test
-    void check_shouldReturnFalseForOldIntelCPU() {
-        CPUData cpuData = mock(CPUData.class);
-        CPUGeneration cpuGeneration = mock(CPUGeneration.class);
-        MemoryData memoryData = mock(MemoryData.class);
-
-        when(cpuData.generation()).thenReturn(cpuGeneration);
-        when(cpuGeneration.cpuManufacturer()).thenReturn(CPUManufacturer.INTEL);
-        when(cpuGeneration.generation()).thenReturn(7);
-
-        when(memoryData.ramGB()).thenReturn(8);
-        when(memoryData.diskSpaceGB()).thenReturn(128);
+        when(memoryData.ramGB()).thenReturn(ramSpace);
+        when(memoryData.diskSpaceGB()).thenReturn(diskSpace);
 
         boolean result = requirementsChecker.check(cpuData, memoryData);
-        assertFalse(result);
+        assertEquals(shouldPass, result);
     }
 
-    @Test
-    void check_shouldReturnFalseForLowRAM() {
-        CPUData cpuData = mock(CPUData.class);
-        CPUGeneration cpuGeneration = mock(CPUGeneration.class);
-        MemoryData memoryData = mock(MemoryData.class);
-
-        when(cpuData.generation()).thenReturn(cpuGeneration);
-        when(cpuGeneration.cpuManufacturer()).thenReturn(CPUManufacturer.INTEL);
-        when(cpuGeneration.generation()).thenReturn(8);
-
-        when(memoryData.ramGB()).thenReturn(2);
-        when(memoryData.diskSpaceGB()).thenReturn(128);
-
-        boolean result = requirementsChecker.check(cpuData, memoryData);
-        assertFalse(result);
+    private static Stream<Arguments> computerParametersAmd() {
+        return Stream.of(
+                Arguments.of(8, 12, 122, true),
+                Arguments.of(7, 4, 122, true),
+                Arguments.of(8, 32, 122, true),
+                Arguments.of(14, 22, 1212, true),
+                Arguments.of(8, 22, 1212, true),
+                Arguments.of(1, 22, 1212, false),
+                Arguments.of(0, 22, 1212, false)
+        );
     }
 
-    @Test
-    void check_shouldReturnFalseForLowDiskSpace() {
+    @ParameterizedTest
+    @MethodSource("computerParametersAmd")
+    void parametrizedAmdTest(int generation, int ramSpace, int diskSpace, boolean shouldPass) {
         CPUData cpuData = mock(CPUData.class);
         CPUGeneration cpuGeneration = mock(CPUGeneration.class);
         MemoryData memoryData = mock(MemoryData.class);
 
         when(cpuData.generation()).thenReturn(cpuGeneration);
         when(cpuGeneration.cpuManufacturer()).thenReturn(CPUManufacturer.AMD);
-        when(cpuGeneration.generation()).thenReturn(3);
+        when(cpuGeneration.generation()).thenReturn(generation);
 
-        when(memoryData.ramGB()).thenReturn(8);
-        when(memoryData.diskSpaceGB()).thenReturn(32);
+        when(memoryData.ramGB()).thenReturn(ramSpace);
+        when(memoryData.diskSpaceGB()).thenReturn(diskSpace);
 
         boolean result = requirementsChecker.check(cpuData, memoryData);
-        assertFalse(result);
+        assertEquals(shouldPass, result);
+    }
+
+    private static Stream<Arguments> computerParametersApple() {
+        return Stream.of(
+                Arguments.of(1, 12, 122, false),
+                Arguments.of(2, 22, 122, false),
+                Arguments.of(3, 32, 256, false)
+        );
+    }
+
+    @ParameterizedTest
+    @MethodSource("computerParametersApple")
+    void parametrizedAppleTest(int generation, int ramSpace, int diskSpace, boolean shouldPass) {
+        CPUData cpuData = mock(CPUData.class);
+        CPUGeneration cpuGeneration = mock(CPUGeneration.class);
+        MemoryData memoryData = mock(MemoryData.class);
+
+        when(cpuData.generation()).thenReturn(cpuGeneration);
+        when(cpuGeneration.cpuManufacturer()).thenReturn(CPUManufacturer.APPLE);
+        when(cpuGeneration.generation()).thenReturn(generation);
+
+        when(memoryData.ramGB()).thenReturn(ramSpace);
+        when(memoryData.diskSpaceGB()).thenReturn(diskSpace);
+
+        boolean result = requirementsChecker.check(cpuData, memoryData);
+        assertEquals(shouldPass, result);
     }
 }
