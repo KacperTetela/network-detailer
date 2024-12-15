@@ -2,6 +2,7 @@ package networkdetailer.com.model.network;
 
 import lombok.extern.slf4j.Slf4j;
 import networkdetailer.com.model.data.NetworkData;
+import networkdetailer.com.model.util.UndefinedHostReadWrite;
 
 import java.net.InetAddress;
 import java.net.SocketException;
@@ -19,16 +20,16 @@ public class NetworkDownloader {
 
     public NetworkData getData() {
         InetAddress ip;
-        String ipHostAddress;
-        String macAddress;
-        String hostName;
+        String ipHostAddress = "Unknown IP";
+        String macAddress = "Unknown MAC";
+        String hostName = "Undefined";
 
         try {
             ip = ipGetter.get();
+
             ipHostAddress = ip.getHostAddress();
             macAddress = macGetter.get(ip);
             hostName = ip.getHostName();
-
             log.trace(hostName);
 
             // Remove the suffix (e.g. ".home") from the hostname
@@ -40,14 +41,21 @@ public class NetworkDownloader {
             log.trace("MAC Address: " + macAddress);
             log.trace("Hostname: " + hostName);
 
-            return new NetworkData(ipHostAddress, hostName, macAddress);
 
         } catch (SocketException e) {
-            e.printStackTrace();
+            log.error("Error getting MAC address: " + e.getMessage());
         } catch (UnknownHostException e) {
-            throw new RuntimeException(e);
+            log.error("Error getting hostname: " + e.getMessage());
+        } catch (Exception e) {
+            log.error("Error getting network object: " + e.getMessage());
         }
-        throw new RuntimeException("IP data not initialized");
+
+        if (hostName.equals("Undefined")) {
+            hostName = hostName + UndefinedHostReadWrite.readNumberFromFile();
+            UndefinedHostReadWrite.incrementNumber();
+        }
+
+        return new NetworkData(ipHostAddress, hostName, macAddress);
     }
 
 }

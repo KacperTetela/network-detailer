@@ -36,15 +36,17 @@ class NetworkDownloaderTest {
     }
 
     @Test
-    public void shouldHandleSocketException() throws SocketException, UnknownHostException {
+    public void shouldHandleSocketExceptionAndReturnDefaultValues() throws SocketException {
         // Given
         IPGetter ipGetter = Mockito.mock(IPGetter.class);
         MacGetter macGetter = Mockito.mock(MacGetter.class);
         Mockito.when(ipGetter.get()).thenThrow(new SocketException("Socket error"));
         NetworkDownloader networkDownloader = new NetworkDownloader(ipGetter, macGetter);
 
-        // When & Then
-        assertThrows(RuntimeException.class, networkDownloader::getData);
+        // Then
+        assertEquals("Unknown IP", networkDownloader.getData().ip());
+        assertEquals("Unknown MAC", networkDownloader.getData().mac());
+        assertTrue(networkDownloader.getData().hostname().startsWith("Undefined"));
     }
 
     @Test

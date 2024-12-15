@@ -1,10 +1,13 @@
 package networkdetailer.com.model.network;
 
+import lombok.extern.slf4j.Slf4j;
+
 import java.net.InetAddress;
 import java.net.NetworkInterface;
 import java.net.SocketException;
 import java.util.Enumeration;
 
+@Slf4j
 public class IPGetter {
     InetAddress get() throws SocketException {
         InetAddress ip = null;
@@ -35,7 +38,7 @@ public class IPGetter {
         }
 
         if (ip == null) {
-            throw new RuntimeException("Could not find a suitable network interface");
+            log.warn("Could not find a suitable network interface");
         }
         return ip;
     }

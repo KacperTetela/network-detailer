@@ -1,6 +1,5 @@
 package networkdetailer.com.model.hardware;
 
-import lombok.extern.java.Log;
 import lombok.extern.slf4j.Slf4j;
 import networkdetailer.com.model.data.CPUData;
 import networkdetailer.com.model.data.CPUManufacturer;
