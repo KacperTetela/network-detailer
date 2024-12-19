@@ -4,7 +4,10 @@ import java.net.InetAddress;
 import java.net.NetworkInterface;
 import java.net.SocketException;
 import java.net.UnknownHostException;
-import java.util.*;
+
+/**
+ * Ability to obtain a mac address only being connected to a network.
+ */
 
 public class MacGetterOnline {
     private NetworkInterface network;

@@ -15,7 +15,6 @@ public class MacGetterOffline {
     public String get() {
         Set<String> uniqueMacs = new HashSet<>();
         try {
-
             Enumeration<NetworkInterface> interfaces = NetworkInterface.getNetworkInterfaces();
             for (NetworkInterface networkInterface : Collections.list(interfaces)) {
                 byte[] mac = networkInterface.getHardwareAddress();
@@ -25,7 +24,7 @@ public class MacGetterOffline {
                         macAddress.append(String.format("%02X%s", mac[i], (i < mac.length - 1) ? "-" : ""));
                     }
                     if (uniqueMacs.add(macAddress.toString())) {
-                        log.trace("Interface: " + networkInterface.getDisplayName() + " -> MAC Address: " + macAddress);
+                        log.trace("Interface: {} -> MAC Address: {}", networkInterface.getDisplayName(), macAddress);
                     }
                 }
             }

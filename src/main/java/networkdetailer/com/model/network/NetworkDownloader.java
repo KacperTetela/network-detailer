@@ -4,6 +4,7 @@ import lombok.extern.slf4j.Slf4j;
 import networkdetailer.com.model.data.NetworkData;
 
 import java.net.InetAddress;
+import java.net.SocketException;
 import java.net.UnknownHostException;
 
 @Slf4j
@@ -26,38 +27,42 @@ public class NetworkDownloader {
 
         try {
             ip = ipGetter.get();
-
             if (ip == null) { // Computer offline
-                try {
-                    hostName = InetAddress.getLocalHost().getHostName();
-                    macAddress = macGetterOffline.get();
-                } catch (UnknownHostException ex) {
-                    hostName = "Unknown";
-                }
-                return new NetworkData(ipHostAddress, hostName, macAddress, false);
+                return getOfflineData(ipHostAddress, macAddress, hostName);
             }
+            return getOnlineData(ip, ipHostAddress, macAddress, hostName);
 
-
-            ipHostAddress = ip.getHostAddress();
-            macAddress = macGetterOnline.get(ip);
-            hostName = ip.getHostName();
-            log.trace(hostName);
-
-            // Remove the suffix (e.g. ".home") from the hostname
-            if (hostName.contains(".")) {
-                hostName = hostName.split("\\.")[0];
-            }
-
-            log.trace("IP Address: " + ipHostAddress);
-            log.trace("MAC Address: " + macAddress);
-            log.trace("Hostname: " + hostName);
-
-
-        }  catch (UnknownHostException e) {
-            log.error("Error getting hostname: " + e.getMessage());
         } catch (Exception e) {
-            log.error("Error getting network object: " + e.getMessage());
+            log.error("Error getting network object: {}", e.getMessage());
         }
+
+        return new NetworkData(ipHostAddress, hostName, macAddress, false);
+    }
+
+    private NetworkData getOfflineData(String ipHostAddress, String macAddress, String hostName) {
+        try {
+            hostName = InetAddress.getLocalHost().getHostName();
+            macAddress = macGetterOffline.get();
+        } catch (UnknownHostException ex) {
+            hostName = "Undefined";
+        }
+        return new NetworkData(ipHostAddress, hostName, macAddress, false);
+    }
+
+    private NetworkData getOnlineData(InetAddress ip, String ipHostAddress, String macAddress, String hostName) throws SocketException, UnknownHostException {
+        ipHostAddress = ip.getHostAddress();
+        macAddress = macGetterOnline.get(ip);
+        hostName = ip.getHostName();
+        log.trace(hostName);
+
+        // Remove the suffix (e.g. ".home") from the hostname
+        if (hostName.contains(".")) {
+            hostName = hostName.split("\\.")[0];
+        }
+
+        log.trace("IP Address: " + ipHostAddress);
+        log.trace("MAC Address: " + macAddress);
+        log.trace("Hostname: " + hostName);
 
         return new NetworkData(ipHostAddress, hostName, macAddress, true);
     }

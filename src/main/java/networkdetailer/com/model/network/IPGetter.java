@@ -9,7 +9,7 @@ import java.util.Enumeration;
 
 @Slf4j
 public class IPGetter {
-    //returns null if offline
+
     InetAddress get() {
         try {
             Enumeration<NetworkInterface> interfaces = NetworkInterface.getNetworkInterfaces();
@@ -38,6 +38,9 @@ public class IPGetter {
             log.error("computer offline: Error getting network interfaces: " + e.getMessage());
         }
 
+        /**
+         * If the computer connection is offline, the method will return null
+         */
         return null;
     }
 }

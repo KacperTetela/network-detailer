@@ -1707,3 +1707,128 @@
 2024-12-19 23:01:15 [main] [39mTRACE[0;39m n.c.model.network.NetworkDownloader - IP Address: 192.168.1.22
 2024-12-19 23:01:15 [main] [39mTRACE[0;39m n.c.model.network.NetworkDownloader - MAC Address: 00:D8:61:32:CF:86
 2024-12-19 23:01:15 [main] [39mTRACE[0;39m n.c.model.network.NetworkDownloader - Hostname: DESKTOP-SHNJU06
+2024-12-19 23:02:00 [AWT-EventQueue-0] [39mTRACE[0;39m n.c.model.network.NetworkDownloader - DESKTOP-SHNJU07.home
+2024-12-19 23:02:00 [AWT-EventQueue-0] [39mTRACE[0;39m n.c.model.network.NetworkDownloader - IP Address: 192.168.1.23
+2024-12-19 23:02:00 [AWT-EventQueue-0] [39mTRACE[0;39m n.c.model.network.NetworkDownloader - MAC Address: 00:D8:61:32:CF:81
+2024-12-19 23:02:00 [AWT-EventQueue-0] [39mTRACE[0;39m n.c.model.network.NetworkDownloader - Hostname: DESKTOP-SHNJU07
+2024-12-19 23:02:00 [AWT-EventQueue-0] [39mTRACE[0;39m n.c.m.hardware.HardwareDownloader - [Intel(R), Core(TM), i7-9700K, CPU, @, 3.60, , , ]
+2024-12-19 23:02:01 [AWT-EventQueue-0] [39mDEBUG[0;39m o.u.p.windows.PerfCounterQuery - Localized PhysicalDisk to PhysicalDisk
+2024-12-19 23:02:01 [AWT-EventQueue-0] [39mTRACE[0;39m n.c.m.hardware.RequirementsChecker - The hardware meets the minimum system requirements for Windows 11
+2024-12-19 23:02:01 [AWT-EventQueue-0] [34mINFO[0;39m n.c.m.hardware.RequirementsChecker - Disk type: UNKNOWN
+2024-12-19 23:02:01 [AWT-EventQueue-0] [39mTRACE[0;39m n.c.model.network.NetworkDownloader - DESKTOP-SHNJU07.home
+2024-12-19 23:02:01 [AWT-EventQueue-0] [39mTRACE[0;39m n.c.model.network.NetworkDownloader - IP Address: 192.168.1.23
+2024-12-19 23:02:01 [AWT-EventQueue-0] [39mTRACE[0;39m n.c.model.network.NetworkDownloader - MAC Address: 00:D8:61:32:CF:81
+2024-12-19 23:02:01 [AWT-EventQueue-0] [39mTRACE[0;39m n.c.model.network.NetworkDownloader - Hostname: DESKTOP-SHNJU07
+2024-12-19 23:02:01 [AWT-EventQueue-0] [39mTRACE[0;39m n.c.m.hardware.HardwareDownloader - [Intel(R), Core(TM), i7-9700K, CPU, @, 3.60, , , ]
+2024-12-19 23:02:01 [AWT-EventQueue-0] [39mTRACE[0;39m n.c.m.hardware.RequirementsChecker - The hardware meets the minimum system requirements for Windows 11
+2024-12-19 23:02:01 [AWT-EventQueue-0] [34mINFO[0;39m n.c.m.hardware.RequirementsChecker - Disk type: UNKNOWN
+2024-12-19 23:02:48 [AWT-EventQueue-0] [39mTRACE[0;39m n.com.model.network.MacGetterOffline - Interface: Intel(R) I211 Gigabit Network Connection-WFP Native MAC Layer LightWeight Filter-0000 -> MAC Address: 00-D8-61-32-CF-80
+2024-12-19 23:02:48 [AWT-EventQueue-0] [39mTRACE[0;39m n.com.model.network.MacGetterOffline - Interface: Intel(R) Ethernet Connection (7) I219-V-WFP Native MAC Layer LightWeight Filter-0000 -> MAC Address: 00-D8-61-32-CF-81
+2024-12-19 23:02:48 [AWT-EventQueue-0] [39mTRACE[0;39m n.c.m.hardware.HardwareDownloader - [Intel(R), Core(TM), i7-9700K, CPU, @, 3.60, , , ]
+2024-12-19 23:02:48 [AWT-EventQueue-0] [39mDEBUG[0;39m o.u.p.windows.PerfCounterQuery - Localized PhysicalDisk to PhysicalDisk
+2024-12-19 23:02:49 [AWT-EventQueue-0] [39mTRACE[0;39m n.c.m.hardware.RequirementsChecker - The hardware meets the minimum system requirements for Windows 11
+2024-12-19 23:02:49 [AWT-EventQueue-0] [34mINFO[0;39m n.c.m.hardware.RequirementsChecker - Disk type: UNKNOWN
+2024-12-19 23:02:49 [AWT-EventQueue-0] [39mTRACE[0;39m n.com.model.network.MacGetterOffline - Interface: Intel(R) I211 Gigabit Network Connection-WFP Native MAC Layer LightWeight Filter-0000 -> MAC Address: 00-D8-61-32-CF-80
+2024-12-19 23:02:49 [AWT-EventQueue-0] [39mTRACE[0;39m n.com.model.network.MacGetterOffline - Interface: Intel(R) Ethernet Connection (7) I219-V-WFP Native MAC Layer LightWeight Filter-0000 -> MAC Address: 00-D8-61-32-CF-81
+2024-12-19 23:02:49 [AWT-EventQueue-0] [39mTRACE[0;39m n.c.m.hardware.HardwareDownloader - [Intel(R), Core(TM), i7-9700K, CPU, @, 3.60, , , ]
+2024-12-19 23:02:49 [AWT-EventQueue-0] [39mTRACE[0;39m n.c.m.hardware.RequirementsChecker - The hardware meets the minimum system requirements for Windows 11
+2024-12-19 23:02:49 [AWT-EventQueue-0] [34mINFO[0;39m n.c.m.hardware.RequirementsChecker - Disk type: UNKNOWN
+2024-12-19 23:03:07 [AWT-EventQueue-0] [39mTRACE[0;39m n.c.model.network.NetworkDownloader - DESKTOP-SHNJU07.home
+2024-12-19 23:03:07 [AWT-EventQueue-0] [39mTRACE[0;39m n.c.model.network.NetworkDownloader - IP Address: 192.168.1.23
+2024-12-19 23:03:07 [AWT-EventQueue-0] [39mTRACE[0;39m n.c.model.network.NetworkDownloader - MAC Address: 00:D8:61:32:CF:81
+2024-12-19 23:03:07 [AWT-EventQueue-0] [39mTRACE[0;39m n.c.model.network.NetworkDownloader - Hostname: DESKTOP-SHNJU07
+2024-12-19 23:03:08 [AWT-EventQueue-0] [39mTRACE[0;39m n.c.m.hardware.HardwareDownloader - [Intel(R), Core(TM), i7-9700K, CPU, @, 3.60, , , ]
+2024-12-19 23:03:08 [AWT-EventQueue-0] [39mDEBUG[0;39m o.u.p.windows.PerfCounterQuery - Localized PhysicalDisk to PhysicalDisk
+2024-12-19 23:03:08 [AWT-EventQueue-0] [39mTRACE[0;39m n.c.m.hardware.RequirementsChecker - The hardware meets the minimum system requirements for Windows 11
+2024-12-19 23:03:08 [AWT-EventQueue-0] [34mINFO[0;39m n.c.m.hardware.RequirementsChecker - Disk type: UNKNOWN
+2024-12-19 23:03:08 [AWT-EventQueue-0] [39mTRACE[0;39m n.c.model.network.NetworkDownloader - DESKTOP-SHNJU07.home
+2024-12-19 23:03:08 [AWT-EventQueue-0] [39mTRACE[0;39m n.c.model.network.NetworkDownloader - IP Address: 192.168.1.23
+2024-12-19 23:03:08 [AWT-EventQueue-0] [39mTRACE[0;39m n.c.model.network.NetworkDownloader - MAC Address: 00:D8:61:32:CF:81
+2024-12-19 23:03:08 [AWT-EventQueue-0] [39mTRACE[0;39m n.c.model.network.NetworkDownloader - Hostname: DESKTOP-SHNJU07
+2024-12-19 23:03:08 [AWT-EventQueue-0] [39mTRACE[0;39m n.c.m.hardware.HardwareDownloader - [Intel(R), Core(TM), i7-9700K, CPU, @, 3.60, , , ]
+2024-12-19 23:03:08 [AWT-EventQueue-0] [39mTRACE[0;39m n.c.m.hardware.RequirementsChecker - The hardware meets the minimum system requirements for Windows 11
+2024-12-19 23:03:08 [AWT-EventQueue-0] [34mINFO[0;39m n.c.m.hardware.RequirementsChecker - Disk type: UNKNOWN
+2024-12-19 23:17:51 [AWT-EventQueue-0] [39mTRACE[0;39m n.c.model.network.NetworkDownloader - DESKTOP-SHNJU07.home
+2024-12-19 23:17:51 [AWT-EventQueue-0] [39mTRACE[0;39m n.c.model.network.NetworkDownloader - IP Address: 192.168.1.23
+2024-12-19 23:17:51 [AWT-EventQueue-0] [39mTRACE[0;39m n.c.model.network.NetworkDownloader - MAC Address: 00:D8:61:32:CF:81
+2024-12-19 23:17:51 [AWT-EventQueue-0] [39mTRACE[0;39m n.c.model.network.NetworkDownloader - Hostname: DESKTOP-SHNJU07
+2024-12-19 23:17:51 [AWT-EventQueue-0] [39mTRACE[0;39m n.c.m.hardware.HardwareDownloader - [Intel(R), Core(TM), i7-9700K, CPU, @, 3.60, , , ]
+2024-12-19 23:17:52 [AWT-EventQueue-0] [39mDEBUG[0;39m o.u.p.windows.PerfCounterQuery - Localized PhysicalDisk to PhysicalDisk
+2024-12-19 23:17:52 [AWT-EventQueue-0] [39mTRACE[0;39m n.c.m.hardware.RequirementsChecker - The hardware meets the minimum system requirements for Windows 11
+2024-12-19 23:17:52 [AWT-EventQueue-0] [34mINFO[0;39m n.c.m.hardware.RequirementsChecker - Disk type: UNKNOWN
+2024-12-19 23:17:52 [AWT-EventQueue-0] [39mTRACE[0;39m n.c.model.network.NetworkDownloader - DESKTOP-SHNJU07.home
+2024-12-19 23:17:52 [AWT-EventQueue-0] [39mTRACE[0;39m n.c.model.network.NetworkDownloader - IP Address: 192.168.1.23
+2024-12-19 23:17:52 [AWT-EventQueue-0] [39mTRACE[0;39m n.c.model.network.NetworkDownloader - MAC Address: 00:D8:61:32:CF:81
+2024-12-19 23:17:52 [AWT-EventQueue-0] [39mTRACE[0;39m n.c.model.network.NetworkDownloader - Hostname: DESKTOP-SHNJU07
+2024-12-19 23:17:52 [AWT-EventQueue-0] [39mTRACE[0;39m n.c.m.hardware.HardwareDownloader - [Intel(R), Core(TM), i7-9700K, CPU, @, 3.60, , , ]
+2024-12-19 23:17:52 [AWT-EventQueue-0] [39mTRACE[0;39m n.c.m.hardware.RequirementsChecker - The hardware meets the minimum system requirements for Windows 11
+2024-12-19 23:17:52 [AWT-EventQueue-0] [34mINFO[0;39m n.c.m.hardware.RequirementsChecker - Disk type: UNKNOWN
+2024-12-19 23:17:53 [AWT-EventQueue-0] [39mTRACE[0;39m n.c.model.network.NetworkDownloader - DESKTOP-SHNJU07.home
+2024-12-19 23:17:53 [AWT-EventQueue-0] [39mTRACE[0;39m n.c.model.network.NetworkDownloader - IP Address: 192.168.1.23
+2024-12-19 23:17:53 [AWT-EventQueue-0] [39mTRACE[0;39m n.c.model.network.NetworkDownloader - MAC Address: 00:D8:61:32:CF:81
+2024-12-19 23:17:53 [AWT-EventQueue-0] [39mTRACE[0;39m n.c.model.network.NetworkDownloader - Hostname: DESKTOP-SHNJU07
+2024-12-19 23:17:53 [AWT-EventQueue-0] [39mTRACE[0;39m n.c.m.hardware.HardwareDownloader - [Intel(R), Core(TM), i7-9700K, CPU, @, 3.60, , , ]
+2024-12-19 23:17:53 [AWT-EventQueue-0] [39mTRACE[0;39m n.c.m.hardware.RequirementsChecker - The hardware meets the minimum system requirements for Windows 11
+2024-12-19 23:17:53 [AWT-EventQueue-0] [34mINFO[0;39m n.c.m.hardware.RequirementsChecker - Disk type: UNKNOWN
+2024-12-19 23:18:14 [AWT-EventQueue-0] [39mTRACE[0;39m n.com.model.network.MacGetterOffline - Interface: Intel(R) I211 Gigabit Network Connection-WFP Native MAC Layer LightWeight Filter-0000 -> MAC Address: 00-D8-61-32-CF-80
+2024-12-19 23:18:14 [AWT-EventQueue-0] [39mTRACE[0;39m n.com.model.network.MacGetterOffline - Interface: Intel(R) Ethernet Connection (7) I219-V-WFP Native MAC Layer LightWeight Filter-0000 -> MAC Address: 00-D8-61-32-CF-81
+2024-12-19 23:18:15 [AWT-EventQueue-0] [39mTRACE[0;39m n.c.m.hardware.HardwareDownloader - [Intel(R), Core(TM), i7-9700K, CPU, @, 3.60, , , ]
+2024-12-19 23:18:15 [AWT-EventQueue-0] [39mDEBUG[0;39m o.u.p.windows.PerfCounterQuery - Localized PhysicalDisk to PhysicalDisk
+2024-12-19 23:18:15 [AWT-EventQueue-0] [39mTRACE[0;39m n.c.m.hardware.RequirementsChecker - The hardware meets the minimum system requirements for Windows 11
+2024-12-19 23:18:15 [AWT-EventQueue-0] [34mINFO[0;39m n.c.m.hardware.RequirementsChecker - Disk type: UNKNOWN
+2024-12-19 23:18:15 [AWT-EventQueue-0] [39mTRACE[0;39m n.com.model.network.MacGetterOffline - Interface: Intel(R) I211 Gigabit Network Connection-WFP Native MAC Layer LightWeight Filter-0000 -> MAC Address: 00-D8-61-32-CF-80
+2024-12-19 23:18:15 [AWT-EventQueue-0] [39mTRACE[0;39m n.com.model.network.MacGetterOffline - Interface: Intel(R) Ethernet Connection (7) I219-V-WFP Native MAC Layer LightWeight Filter-0000 -> MAC Address: 00-D8-61-32-CF-81
+2024-12-19 23:18:15 [AWT-EventQueue-0] [39mTRACE[0;39m n.c.m.hardware.HardwareDownloader - [Intel(R), Core(TM), i7-9700K, CPU, @, 3.60, , , ]
+2024-12-19 23:18:15 [AWT-EventQueue-0] [39mTRACE[0;39m n.c.m.hardware.RequirementsChecker - The hardware meets the minimum system requirements for Windows 11
+2024-12-19 23:18:15 [AWT-EventQueue-0] [34mINFO[0;39m n.c.m.hardware.RequirementsChecker - Disk type: UNKNOWN
+2024-12-19 23:18:34 [AWT-EventQueue-0] [39mTRACE[0;39m n.com.model.network.MacGetterOffline - Interface: Intel(R) I211 Gigabit Network Connection-WFP Native MAC Layer LightWeight Filter-0000 -> MAC Address: 00-D8-61-32-CF-80
+2024-12-19 23:18:34 [AWT-EventQueue-0] [39mTRACE[0;39m n.com.model.network.MacGetterOffline - Interface: Intel(R) Ethernet Connection (7) I219-V-WFP Native MAC Layer LightWeight Filter-0000 -> MAC Address: 00-D8-61-32-CF-81
+2024-12-19 23:18:34 [AWT-EventQueue-0] [39mTRACE[0;39m n.c.m.hardware.HardwareDownloader - [Intel(R), Core(TM), i7-9700K, CPU, @, 3.60, , , ]
+2024-12-19 23:18:34 [AWT-EventQueue-0] [39mTRACE[0;39m n.c.m.hardware.RequirementsChecker - The hardware meets the minimum system requirements for Windows 11
+2024-12-19 23:18:34 [AWT-EventQueue-0] [34mINFO[0;39m n.c.m.hardware.RequirementsChecker - Disk type: UNKNOWN
+2024-12-19 23:18:35 [AWT-EventQueue-0] [39mTRACE[0;39m n.com.model.network.MacGetterOffline - Interface: Intel(R) I211 Gigabit Network Connection-WFP Native MAC Layer LightWeight Filter-0000 -> MAC Address: 00-D8-61-32-CF-80
+2024-12-19 23:18:35 [AWT-EventQueue-0] [39mTRACE[0;39m n.com.model.network.MacGetterOffline - Interface: Intel(R) Ethernet Connection (7) I219-V-WFP Native MAC Layer LightWeight Filter-0000 -> MAC Address: 00-D8-61-32-CF-81
+2024-12-19 23:18:35 [AWT-EventQueue-0] [39mTRACE[0;39m n.c.m.hardware.HardwareDownloader - [Intel(R), Core(TM), i7-9700K, CPU, @, 3.60, , , ]
+2024-12-19 23:18:35 [AWT-EventQueue-0] [39mTRACE[0;39m n.c.m.hardware.RequirementsChecker - The hardware meets the minimum system requirements for Windows 11
+2024-12-19 23:18:35 [AWT-EventQueue-0] [34mINFO[0;39m n.c.m.hardware.RequirementsChecker - Disk type: UNKNOWN
+2024-12-19 23:18:35 [AWT-EventQueue-0] [39mTRACE[0;39m n.com.model.network.MacGetterOffline - Interface: Intel(R) I211 Gigabit Network Connection-WFP Native MAC Layer LightWeight Filter-0000 -> MAC Address: 00-D8-61-32-CF-80
+2024-12-19 23:18:35 [AWT-EventQueue-0] [39mTRACE[0;39m n.com.model.network.MacGetterOffline - Interface: Intel(R) Ethernet Connection (7) I219-V-WFP Native MAC Layer LightWeight Filter-0000 -> MAC Address: 00-D8-61-32-CF-81
+2024-12-19 23:18:35 [AWT-EventQueue-0] [39mTRACE[0;39m n.c.m.hardware.HardwareDownloader - [Intel(R), Core(TM), i7-9700K, CPU, @, 3.60, , , ]
+2024-12-19 23:18:35 [AWT-EventQueue-0] [39mTRACE[0;39m n.c.m.hardware.RequirementsChecker - The hardware meets the minimum system requirements for Windows 11
+2024-12-19 23:18:35 [AWT-EventQueue-0] [34mINFO[0;39m n.c.m.hardware.RequirementsChecker - Disk type: UNKNOWN
+2024-12-19 23:18:36 [AWT-EventQueue-0] [39mTRACE[0;39m n.com.model.network.MacGetterOffline - Interface: Intel(R) I211 Gigabit Network Connection-WFP Native MAC Layer LightWeight Filter-0000 -> MAC Address: 00-D8-61-32-CF-80
+2024-12-19 23:18:36 [AWT-EventQueue-0] [39mTRACE[0;39m n.com.model.network.MacGetterOffline - Interface: Intel(R) Ethernet Connection (7) I219-V-WFP Native MAC Layer LightWeight Filter-0000 -> MAC Address: 00-D8-61-32-CF-81
+2024-12-19 23:18:36 [AWT-EventQueue-0] [39mTRACE[0;39m n.c.m.hardware.HardwareDownloader - [Intel(R), Core(TM), i7-9700K, CPU, @, 3.60, , , ]
+2024-12-19 23:18:36 [AWT-EventQueue-0] [39mTRACE[0;39m n.c.m.hardware.RequirementsChecker - The hardware meets the minimum system requirements for Windows 11
+2024-12-19 23:18:36 [AWT-EventQueue-0] [34mINFO[0;39m n.c.m.hardware.RequirementsChecker - Disk type: UNKNOWN
+2024-12-19 23:18:36 [AWT-EventQueue-0] [39mTRACE[0;39m n.com.model.network.MacGetterOffline - Interface: Intel(R) I211 Gigabit Network Connection-WFP Native MAC Layer LightWeight Filter-0000 -> MAC Address: 00-D8-61-32-CF-80
+2024-12-19 23:18:36 [AWT-EventQueue-0] [39mTRACE[0;39m n.com.model.network.MacGetterOffline - Interface: Intel(R) Ethernet Connection (7) I219-V-WFP Native MAC Layer LightWeight Filter-0000 -> MAC Address: 00-D8-61-32-CF-81
+2024-12-19 23:18:36 [AWT-EventQueue-0] [39mTRACE[0;39m n.c.m.hardware.HardwareDownloader - [Intel(R), Core(TM), i7-9700K, CPU, @, 3.60, , , ]
+2024-12-19 23:18:36 [AWT-EventQueue-0] [39mTRACE[0;39m n.c.m.hardware.RequirementsChecker - The hardware meets the minimum system requirements for Windows 11
+2024-12-19 23:18:36 [AWT-EventQueue-0] [34mINFO[0;39m n.c.m.hardware.RequirementsChecker - Disk type: UNKNOWN
+2024-12-19 23:18:37 [AWT-EventQueue-0] [39mTRACE[0;39m n.com.model.network.MacGetterOffline - Interface: Intel(R) I211 Gigabit Network Connection-WFP Native MAC Layer LightWeight Filter-0000 -> MAC Address: 00-D8-61-32-CF-80
+2024-12-19 23:18:37 [AWT-EventQueue-0] [39mTRACE[0;39m n.com.model.network.MacGetterOffline - Interface: Intel(R) Ethernet Connection (7) I219-V-WFP Native MAC Layer LightWeight Filter-0000 -> MAC Address: 00-D8-61-32-CF-81
+2024-12-19 23:18:37 [AWT-EventQueue-0] [39mTRACE[0;39m n.c.m.hardware.HardwareDownloader - [Intel(R), Core(TM), i7-9700K, CPU, @, 3.60, , , ]
+2024-12-19 23:18:37 [AWT-EventQueue-0] [39mTRACE[0;39m n.c.m.hardware.RequirementsChecker - The hardware meets the minimum system requirements for Windows 11
+2024-12-19 23:18:37 [AWT-EventQueue-0] [34mINFO[0;39m n.c.m.hardware.RequirementsChecker - Disk type: UNKNOWN
+2024-12-19 23:18:37 [AWT-EventQueue-0] [39mTRACE[0;39m n.com.model.network.MacGetterOffline - Interface: Intel(R) I211 Gigabit Network Connection-WFP Native MAC Layer LightWeight Filter-0000 -> MAC Address: 00-D8-61-32-CF-80
+2024-12-19 23:18:37 [AWT-EventQueue-0] [39mTRACE[0;39m n.com.model.network.MacGetterOffline - Interface: Intel(R) Ethernet Connection (7) I219-V-WFP Native MAC Layer LightWeight Filter-0000 -> MAC Address: 00-D8-61-32-CF-81
+2024-12-19 23:18:37 [AWT-EventQueue-0] [39mTRACE[0;39m n.c.m.hardware.HardwareDownloader - [Intel(R), Core(TM), i7-9700K, CPU, @, 3.60, , , ]
+2024-12-19 23:18:37 [AWT-EventQueue-0] [39mTRACE[0;39m n.c.m.hardware.RequirementsChecker - The hardware meets the minimum system requirements for Windows 11
+2024-12-19 23:18:37 [AWT-EventQueue-0] [34mINFO[0;39m n.c.m.hardware.RequirementsChecker - Disk type: UNKNOWN
+2024-12-19 23:18:38 [AWT-EventQueue-0] [39mTRACE[0;39m n.com.model.network.MacGetterOffline - Interface: Intel(R) I211 Gigabit Network Connection-WFP Native MAC Layer LightWeight Filter-0000 -> MAC Address: 00-D8-61-32-CF-80
+2024-12-19 23:18:38 [AWT-EventQueue-0] [39mTRACE[0;39m n.com.model.network.MacGetterOffline - Interface: Intel(R) Ethernet Connection (7) I219-V-WFP Native MAC Layer LightWeight Filter-0000 -> MAC Address: 00-D8-61-32-CF-81
+2024-12-19 23:18:38 [AWT-EventQueue-0] [39mTRACE[0;39m n.c.m.hardware.HardwareDownloader - [Intel(R), Core(TM), i7-9700K, CPU, @, 3.60, , , ]
+2024-12-19 23:18:38 [AWT-EventQueue-0] [39mTRACE[0;39m n.c.m.hardware.RequirementsChecker - The hardware meets the minimum system requirements for Windows 11
+2024-12-19 23:18:38 [AWT-EventQueue-0] [34mINFO[0;39m n.c.m.hardware.RequirementsChecker - Disk type: UNKNOWN
+2024-12-19 23:18:39 [AWT-EventQueue-0] [39mTRACE[0;39m n.com.model.network.MacGetterOffline - Interface: Intel(R) I211 Gigabit Network Connection-WFP Native MAC Layer LightWeight Filter-0000 -> MAC Address: 00-D8-61-32-CF-80
+2024-12-19 23:18:39 [AWT-EventQueue-0] [39mTRACE[0;39m n.com.model.network.MacGetterOffline - Interface: Intel(R) Ethernet Connection (7) I219-V-WFP Native MAC Layer LightWeight Filter-0000 -> MAC Address: 00-D8-61-32-CF-81
+2024-12-19 23:18:39 [AWT-EventQueue-0] [39mTRACE[0;39m n.c.m.hardware.HardwareDownloader - [Intel(R), Core(TM), i7-9700K, CPU, @, 3.60, , , ]
+2024-12-19 23:18:39 [AWT-EventQueue-0] [39mTRACE[0;39m n.c.m.hardware.RequirementsChecker - The hardware meets the minimum system requirements for Windows 11
+2024-12-19 23:18:39 [AWT-EventQueue-0] [34mINFO[0;39m n.c.m.hardware.RequirementsChecker - Disk type: UNKNOWN
+2024-12-19 23:18:39 [AWT-EventQueue-0] [39mTRACE[0;39m n.com.model.network.MacGetterOffline - Interface: Intel(R) I211 Gigabit Network Connection-WFP Native MAC Layer LightWeight Filter-0000 -> MAC Address: 00-D8-61-32-CF-80
+2024-12-19 23:18:39 [AWT-EventQueue-0] [39mTRACE[0;39m n.com.model.network.MacGetterOffline - Interface: Intel(R) Ethernet Connection (7) I219-V-WFP Native MAC Layer LightWeight Filter-0000 -> MAC Address: 00-D8-61-32-CF-81
+2024-12-19 23:18:39 [AWT-EventQueue-0] [39mTRACE[0;39m n.c.m.hardware.HardwareDownloader - [Intel(R), Core(TM), i7-9700K, CPU, @, 3.60, , , ]
+2024-12-19 23:18:39 [AWT-EventQueue-0] [39mTRACE[0;39m n.c.m.hardware.RequirementsChecker - The hardware meets the minimum system requirements for Windows 11
+2024-12-19 23:18:39 [AWT-EventQueue-0] [34mINFO[0;39m n.c.m.hardware.RequirementsChecker - Disk type: UNKNOWN
+2024-12-19 23:26:14 [main] [1;31mERROR[0;39m n.c.model.network.NetworkDownloader - Error getting network object: Cannot invoke "networkdetailer.com.model.network.IPGetter.get()" because "this.ipGetter" is null
