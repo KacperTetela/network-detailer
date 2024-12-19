@@ -39,14 +39,14 @@ class DataCollectorTest {
     }
 
     @Test
-    void getActualData_shouldReturnComputerData() {
+    void getLastDataData_shouldReturnComputerData() {
         when(networkDownloader.getData()).thenReturn(mockNetworkData);
         when(hardwareDownloader.getCpuData()).thenReturn(mockCpuData);
         when(hardwareDownloader.getMemoryData()).thenReturn(mockMemoryData);
         when(hardwareDownloader.getMoboData()).thenReturn(mockMoboData);
         when(requirementsChecker.check(mockCpuData, mockMemoryData)).thenReturn(true);
 
-        ComputerData result = dataCollector.getActualData();
+        ComputerData result = dataCollector.refreshData();
 
         assertNotNull(result);
         assertEquals(mockCpuData, result.cpuData());

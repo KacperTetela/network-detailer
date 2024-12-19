@@ -17,14 +17,15 @@ class NetworkDownloaderTest {
         //Given
         String hostname = "DESKTOP-SHNJU06";
         IPGetter ipGetter = Mockito.mock(IPGetter.class);
-        MacGetter macGetter = Mockito.mock(MacGetter.class);
+        MacGetterOnline macGetterOnline = Mockito.mock(MacGetterOnline.class);
+        MacGetterOffline macGetterOffline = Mockito.mock(MacGetterOffline.class);
         InetAddress customInetAddress = Mockito.mock(InetAddress.class);
         Mockito.when(customInetAddress.getHostAddress()).thenReturn("192.168.1.22");
         Mockito.when(customInetAddress.getHostName()).thenReturn(hostname + ".home");
 
         Mockito.when(ipGetter.get()).thenReturn(customInetAddress);
-        Mockito.when(macGetter.get(customInetAddress)).thenReturn("00:D8:61:32:CF:86");
-        NetworkDownloader networkDownloader = new NetworkDownloader(ipGetter, macGetter);
+        Mockito.when(macGetterOnline.get(customInetAddress)).thenReturn("00:D8:61:32:CF:86");
+        NetworkDownloader networkDownloader = new NetworkDownloader(ipGetter, macGetterOnline, macGetterOffline);
 
         //When
         NetworkData networkData = networkDownloader.getData();
@@ -32,16 +33,17 @@ class NetworkDownloaderTest {
         //Then
         assertEquals(networkData.hostname(), hostname);
         assertEquals(networkData.ip(), customInetAddress.getHostAddress());
-        assertEquals(networkData.mac(), macGetter.get(customInetAddress));
+        assertEquals(networkData.mac(), macGetterOnline.get(customInetAddress));
     }
 
     @Test
     public void shouldHandleSocketExceptionAndReturnDefaultValues() throws SocketException {
         // Given
         IPGetter ipGetter = Mockito.mock(IPGetter.class);
-        MacGetter macGetter = Mockito.mock(MacGetter.class);
+        MacGetterOnline macGetterOnline = Mockito.mock(MacGetterOnline.class);
+        MacGetterOffline macGetterOffline = Mockito.mock(MacGetterOffline.class);
         Mockito.when(ipGetter.get()).thenThrow(new SocketException("Socket error"));
-        NetworkDownloader networkDownloader = new NetworkDownloader(ipGetter, macGetter);
+        NetworkDownloader networkDownloader = new NetworkDownloader(ipGetter, macGetterOnline, macGetterOffline);
 
         // Then
         assertEquals("Unknown IP", networkDownloader.getData().ip());
@@ -54,14 +56,15 @@ class NetworkDownloaderTest {
         // Given
         String hostname = "DESKTOP-SHNJU06";
         IPGetter ipGetter = Mockito.mock(IPGetter.class);
-        MacGetter macGetter = Mockito.mock(MacGetter.class);
+        MacGetterOnline macGetterOnline = Mockito.mock(MacGetterOnline.class);
+        MacGetterOffline macGetterOffline = Mockito.mock(MacGetterOffline.class);
         InetAddress customInetAddress = Mockito.mock(InetAddress.class);
         Mockito.when(customInetAddress.getHostAddress()).thenReturn("192.168.1.22");
         Mockito.when(customInetAddress.getHostName()).thenReturn(hostname);
 
         Mockito.when(ipGetter.get()).thenReturn(customInetAddress);
-        Mockito.when(macGetter.get(customInetAddress)).thenReturn("00:D8:61:32:CF:86");
-        NetworkDownloader networkDownloader = new NetworkDownloader(ipGetter, macGetter);
+        Mockito.when(macGetterOnline.get(customInetAddress)).thenReturn("00:D8:61:32:CF:86");
+        NetworkDownloader networkDownloader = new NetworkDownloader(ipGetter, macGetterOnline, macGetterOffline);
 
         // When
         NetworkData networkData = networkDownloader.getData();
@@ -69,6 +72,6 @@ class NetworkDownloaderTest {
         // Then
         assertEquals(networkData.hostname(), hostname);
         assertEquals(networkData.ip(), customInetAddress.getHostAddress());
-        assertEquals(networkData.mac(), macGetter.get(customInetAddress));
+        assertEquals(networkData.mac(), macGetterOnline.get(customInetAddress));
     }
 }

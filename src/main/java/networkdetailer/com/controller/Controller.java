@@ -10,8 +10,8 @@ public class Controller {
         this.dataCollector = dataCollector;
     }
 
-    public ComputerData getData() {
-        return dataCollector.getActualData();
+    public ComputerData refreshData() {
+        return dataCollector.refreshData();
     }
 
     public int exportToExcel() {

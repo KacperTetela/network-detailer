@@ -5,8 +5,10 @@ import networkdetailer.com.model.hardware.HardwareGetter;
 import networkdetailer.com.model.hardware.RequirementsChecker;
 import networkdetailer.com.model.hardware.HardwareDownloader;
 import networkdetailer.com.model.network.IPGetter;
-import networkdetailer.com.model.network.MacGetter;
+import networkdetailer.com.model.network.MacGetterOffline;
+import networkdetailer.com.model.network.MacGetterOnline;
 import networkdetailer.com.model.network.NetworkDownloader;
+import networkdetailer.com.model.util.UndefinedHostReadWrite;
 import org.apache.poi.ss.usermodel.Row;
 import org.apache.poi.ss.usermodel.Sheet;
 import org.apache.poi.ss.usermodel.Workbook;
@@ -26,14 +28,26 @@ public class DataCollector {
     private NetworkDownloader networkDownloader;
     private HardwareDownloader hardwareDownloader;
     private RequirementsChecker requirementsChecker;
+    private ComputerData data = null;
+
 
     public DataCollector() {
-        networkDownloader = new NetworkDownloader(new IPGetter(), new MacGetter());
+        networkDownloader = new NetworkDownloader(new IPGetter(), new MacGetterOnline(), new MacGetterOffline());
         hardwareDownloader = new HardwareDownloader(new HardwareGetter(), new CPUGenerationGetter());
         requirementsChecker = new RequirementsChecker();
     }
 
-    public ComputerData getActualData() {
+    public ComputerData refreshData() {
+        boolean firstTime = data == null;
+        //każde odpalenie aplikacji inkrementuje
+        data = generateActualData();
+        if (firstTime && !data.networkData().online()) {
+            UndefinedHostReadWrite.incrementNumber();
+        }
+        return data;
+    }
+
+    private ComputerData generateActualData() {
         networkData = networkDownloader.getData();
         cpuData = hardwareDownloader.getCpuData();
         moboData = hardwareDownloader.getMoboData();

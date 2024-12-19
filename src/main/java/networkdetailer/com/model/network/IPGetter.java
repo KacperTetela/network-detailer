@@ -9,37 +9,35 @@ import java.util.Enumeration;
 
 @Slf4j
 public class IPGetter {
-    InetAddress get() throws SocketException {
-        InetAddress ip = null;
-        Enumeration<NetworkInterface> interfaces = NetworkInterface.getNetworkInterfaces();
+    //returns null if offline
+    InetAddress get() {
+        try {
+            Enumeration<NetworkInterface> interfaces = NetworkInterface.getNetworkInterfaces();
 
-        while (interfaces.hasMoreElements()) {
-            NetworkInterface networkInterface = interfaces.nextElement();
+            while (interfaces.hasMoreElements()) {
+                NetworkInterface networkInterface = interfaces.nextElement();
 
-            // Ignoring virtual interfaces
-            if (networkInterface.isVirtual() || !networkInterface.isUp()) {
-                continue;
-            }
+                // Ignoring virtual interfaces
+                if (networkInterface.isVirtual() || !networkInterface.isUp()) {
+                    continue;
+                }
 
-            Enumeration<InetAddress> addresses = networkInterface.getInetAddresses();
-            while (addresses.hasMoreElements()) {
-                InetAddress inetAddress = addresses.nextElement();
+                Enumeration<InetAddress> addresses = networkInterface.getInetAddresses();
+                while (addresses.hasMoreElements()) {
+                    InetAddress inetAddress = addresses.nextElement();
 
-                // Checking if the address is IPv4 and not a link-local address (127.0.0.1)
-                if (!inetAddress.isLoopbackAddress() && inetAddress.getHostAddress().indexOf(':') == -1) {
-                    ip = inetAddress;
-                    break;
+                    // Checking if the address is IPv4 and not a link-local address (127.0.0.1)
+                    if (!inetAddress.isLoopbackAddress() && inetAddress.getHostAddress().indexOf(':') == -1) {
+                        return inetAddress;
+                    }
                 }
             }
+            log.warn("Could not find a suitable network interface - computer offline");
 
-            if (ip != null) {
-                break;
-            }
+        } catch (SocketException e) {
+            log.error("computer offline: Error getting network interfaces: " + e.getMessage());
         }
 
-        if (ip == null) {
-            log.warn("Could not find a suitable network interface");
-        }
-        return ip;
+        return null;
     }
 }

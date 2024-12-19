@@ -4,11 +4,13 @@ import java.net.InetAddress;
 import java.net.NetworkInterface;
 import java.net.SocketException;
 import java.net.UnknownHostException;
+import java.util.*;
 
-public class MacGetter {
+public class MacGetterOnline {
     private NetworkInterface network;
 
-    String get(InetAddress ip) throws UnknownHostException, SocketException{
+    String get(InetAddress ip) throws UnknownHostException, SocketException {
+
         network = NetworkInterface.getByInetAddress(ip);
         if (network != null) {
             // Getting MAC address
@@ -28,4 +30,5 @@ public class MacGetter {
         }
         throw new RuntimeException("Network object not initialized");
     }
+
 }

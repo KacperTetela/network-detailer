@@ -97,7 +97,7 @@ public class VariablesPanel extends JPanel {
         Timer timer = new Timer(300, new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
-                ComputerData computerData = controller.getData();
+                ComputerData computerData = controller.refreshData();
 
                 hostnameValue.setText(computerData.getHostname());
                 ipAddressValue.setText(computerData.getIP());
