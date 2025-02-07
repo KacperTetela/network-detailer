@@ -28,6 +28,10 @@ NetworkDetailer is a desktop application written in Java that provides network d
 2. Open the extracted folder and locate the NetworkDetailer.exe file.
 3. Double-click the EXE file to run the application.
 
-## License
+## 📄 License
 
-[MIT](https://choosealicense.com/licenses/mit/)
+This project is available under the MIT License. See [`LICENSE`](https://choosealicense.com/licenses/mit/) for details.
+
+## ✨ Author
+
+[Kacper Tetela](https://github.com/KacperTetela)
