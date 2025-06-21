@@ -23,10 +23,11 @@ public class Controller {
   }
 
   public boolean syncWithServer() {
-    return false;
+    return dataCollector.syncWithServer();
   }
 
   public boolean overwrite(String accessKey) {
+    // return dataCollector.overwriteAccessKey(accessKey);
     return false;
   }
 }
