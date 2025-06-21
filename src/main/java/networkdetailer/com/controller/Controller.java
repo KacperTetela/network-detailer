@@ -4,21 +4,29 @@ import networkdetailer.com.model.data.ComputerData;
 import networkdetailer.com.model.data.DataCollector;
 
 public class Controller {
-    private DataCollector dataCollector;
+  private DataCollector dataCollector;
 
-    public Controller(DataCollector dataCollector) {
-        this.dataCollector = dataCollector;
-    }
+  public Controller(DataCollector dataCollector) {
+    this.dataCollector = dataCollector;
+  }
 
-    public ComputerData refreshData() {
-        return dataCollector.refreshData();
-    }
+  public ComputerData refreshData() {
+    return dataCollector.refreshData();
+  }
 
-    public int exportToExcel() {
-        return dataCollector.saveToExcel();
-    }
+  public int exportToExcel() {
+    return dataCollector.saveToExcel();
+  }
 
-    public boolean saveAsTxt() {
-        return dataCollector.saveToTxt();
-    }
+  public boolean saveAsTxt() {
+    return dataCollector.saveToTxt();
+  }
+
+  public boolean syncWithServer() {
+    return false;
+  }
+
+  public boolean overwrite(String accessKey) {
+    return false;
+  }
 }

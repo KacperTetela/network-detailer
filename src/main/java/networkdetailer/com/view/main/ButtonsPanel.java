@@ -6,11 +6,14 @@ import networkdetailer.com.view.Frame;
 import javax.swing.*;
 import java.awt.*;
 
+
 public class ButtonsPanel extends JPanel {
     private Controller controller;
     JButton saveToTxt = new JButton("Save as TXT");
     JButton saveToExcel = new JButton("Export to Excel");
-    JButton refresh = new JButton("Refresh Data");
+    JButton refresh = new JButton("Refresh data");
+    JButton syncWithServer = new JButton("Sync with server");
+    JButton serverSettings = new JButton("Server Settings");
 
     public ButtonsPanel(Controller controller) {
         this.controller = controller;
@@ -20,6 +23,8 @@ public class ButtonsPanel extends JPanel {
         saveToTxt.setFocusPainted(false);
         saveToExcel.setFocusPainted(false);
         refresh.setFocusPainted(false);
+        syncWithServer.setFocusPainted(false);
+        serverSettings.setFocusPainted(false);
 
         saveToExcel.addActionListener(e -> {
             /**
@@ -45,9 +50,25 @@ public class ButtonsPanel extends JPanel {
         refresh.addActionListener(e -> {
             VariablesPanel.updateStaticData();
         });
+    syncWithServer.addActionListener(
+        e -> {
+          boolean didWork = controller.syncWithServer();
+          if (didWork) {
+            Frame.getInstance().informationPanelPlayer("Data has been synchronized with server");
+          } else {
+            Frame.getInstance()
+                .informationPanelPlayer(
+                    "Something went wrong, make sure the access key is correct");
+          }
+        });
+        serverSettings.addActionListener(e -> {
+            Frame.getInstance().serverSettingsPanelPlayer();
+        });
 
         add(saveToExcel);
         add(saveToTxt);
         add(refresh);
+        add(syncWithServer);
+        add(serverSettings);
     }
 }
